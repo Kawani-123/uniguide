@@ -1,0 +1,113 @@
+/* contact.css */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #190358, #4e94df);
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px;
+  background: white;
+  color: black;
+}
+
+.navbar img {
+  height: 80px;   
+  width: 80px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  margin-left: 30px;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+.nav-links a:hover {
+    color: #4e94df;
+}
+.nav-links a.active-page {
+    color: #4e94df;
+    font-weight: 700;
+    border-bottom: 3px solid #4e94df;
+    padding-bottom: 4px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  max-width: 400px;
+}
+
+.contact-form {
+  background: rgba(255,255,255,0.15);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(12px);
+  width: 400px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(255,255,255,0.3);
+  color: white;
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background: white;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.rating {
+  margin-top: 15px;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  color: gray;
+}
+
+.star.active {
+  color: gold;
+}
+
+.social img {
+  width: 35px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.success {
+  color: rgb(171, 253, 209);
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}

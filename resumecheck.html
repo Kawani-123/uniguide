@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Strength</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/freshers-feature.css') }}">
+
+<style>
+
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f9ff;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #6c63ff;
+}
+
+/* ===== TOP INTRO ===== */
+.feature-container {
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0 auto;
+    max-width: 900px;
+    background: transparent;
+    box-shadow: none;
+    border: none;        
+    outline: none;       
+    border-radius: 0; 
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-list li {
+    margin: 8px 0;
+}
+
+/* ===== MAIN ===== */
+.main-container {
+    max-width: 1100px;
+    margin: 10px auto;
+}
+
+/* ===== GRID ===== */
+.resume-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* ===== CARD ===== */
+.glass-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* ===== INPUT ===== */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+/* ===== BUTTON ===== */
+.btn-main {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right,#da95fc, #ef9ff2);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* ===== BACK BUTTON FIX ===== */
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #6c63ff;
+    border-radius: 25px;
+    color: #6c63ff !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.back-btn:hover {
+    background: #6c63ff;
+    color: white !important;
+}
+/* ===== RESUME PREVIEW DESIGN ===== */
+#resumePreview {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+#resumePreview h3 {
+    margin-bottom: 5px;
+    font-size: 26px;
+}
+
+#resumePreview .contact {
+    font-size: 14px;
+    color: #666;
+}
+
+#resumePreview h5 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #6c63ff;
+    border-bottom: 1px solid #ddd;
+}
+
+#resumePreview p {
+    font-size: 14px;
+}
+
+/* ===== MOBILE ===== */
+@media(max-width: 768px){
+    .resume-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">
+        <img src="{{ url_for('static', filename='images/uniguide-all-in-one.png') }}">
+    </div>
+    <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/fresher">CareerStart</a>
+        <a href="/contact">Contact</a>
+    </div>
+</div>
+
+<!-- TOP SECTION -->
+<div class="feature-container">
+
+    <h1>Resume Strength</h1>
+
+    <p>Check your resume score and get improvement suggestions.</p>
+
+    <ul class="feature-list">
+        <li>✔ Job-role based resume suggestions</li>
+        <li>✔ Industry-ready formatting tips</li>
+        <li>✔ Highlight important skills & projects</li>
+        <li>✔ Improve selection chances</li>
+    </ul>
+
+    <a href="/fresher" class="back-btn">← Back</a>
+
+</div>
+
+<!-- MAIN -->
+<div class="main-container">
+
+    <h2 style="text-align:center;">✨ Build Your Professional Resume</h2>
+    <p style="text-align:center; color:#666;">
+        Fill your details and preview your resume instantly.
+    </p>
+
+    <div class="resume-grid">
+
+        <!-- FORM -->
+        <div class="glass-card">
+
+            <h3>Enter Details</h3>
+
+            <input id="name" placeholder="Full Name">
+            <input id="email" placeholder="Email">
+            <input id="phone" placeholder="Phone Number">
+            <input id="linkedin" placeholder="LinkedIn Profile">
+            <input id="github" placeholder="GitHub Profile">
+
+            <textarea id="objective" placeholder="Career Objective"></textarea>
+
+            <input id="education" placeholder="Education">
+            <input id="skills" placeholder="Skills">
+
+            <textarea id="projects" placeholder="Projects"></textarea>
+            <textarea id="experience" placeholder="Experience"></textarea>
+            <textarea id="achievements" placeholder="Achievements"></textarea>
+
+            <button type="button" class="btn-main" onclick="generateResume()">
+                Generate Resume
+            </button>
+
+        </div>
+
+        <!-- PREVIEW -->
+        <div class="glass-card">
+
+            <h3>Resume Preview</h3>
+
+            <div id="resumePreview">
+                <p style="color:#888;">Your resume will appear here...</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+function generateResume(){
+
+let name = document.getElementById("name").value;
+let email = document.getElementById("email").value;
+let phone = document.getElementById("phone").value;
+let linkedin = document.getElementById("linkedin").value;
+let github = document.getElementById("github").value;
+let objective = document.getElementById("objective").value;
+let education = document.getElementById("education").value;
+let skills = document.getElementById("skills").value;
+let projects = document.getElementById("projects").value;
+let experience = document.getElementById("experience").value;
+let achievements = document.getElementById("achievements").value;
+
+document.getElementById("resumePreview").innerHTML = `
+
+<h3>${name}</h3>
+
+<p class="contact">${email} | ${phone}</p>
+
+<p class="contact">
+🔗 ${linkedin}<br>
+💻 ${github}
+</p>
+
+<hr>
+
+<h5>🎯 Career Objective</h5>
+<p>${objective}</p>
+
+<h5>🎓 Education</h5>
+<p>${education}</p>
+
+<h5>🛠 Skills</h5>
+<p>${skills}</p>
+
+<h5>📂 Projects</h5>
+<p>${projects}</p>
+
+<h5>💼 Experience</h5>
+<p>${experience}</p>
+
+<h5>🏆 Achievements</h5>
+<p>${achievements}</p>
+
+`;
+
+}
+
+</script>
+
+</body>
+</html>

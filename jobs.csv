@@ -1,0 +1,561 @@
+Branch,Job_Title,Location,Salary_Range,Work_Type
+Hotel Management,Executive Chef,Singapore,$110k/year,Full-time
+Information Technology,Cybersecurity Analyst,"Delhi NCR, India",₹11 LPA,Hybrid
+Information Technology,Network Engineer,"Hyderabad, India",₹30 LPA,Hybrid
+Hotel Management,Restaurant Manager,"Bangalore, India",₹15 LPA,Full-time
+Civil Engineering,Structural Engineer,"Bangalore, India",₹9 LPA,Contract
+Robotics,Computer Vision Engineer,"Bangalore, India",₹31 LPA,Hybrid
+Management,Operations Manager,"Hyderabad, India",₹21 LPA,Hybrid
+Pharmacy,Medical Representative,Singapore,$116k/year,Hybrid
+Education,E-learning Specialist,"Pune, India",₹9 LPA,Full-time
+Media,Journalist,Remote,₹19 LPA,Contract
+Banking,Investment Banker,"Hyderabad, India",₹17 LPA,Full-time
+Environmental Science,Sustainability Manager,"Dubai, UAE",₹30 LPA,Contract
+Computer Science,Full Stack Developer,Remote,₹25 LPA,Full-time
+Education,Educational Consultant,"New York, USA",$65k/year,Contract
+Civil Engineering,Structural Engineer,"Bangalore, India",₹19 LPA,Hybrid
+Information Technology,IT Support Specialist,"Bangalore, India",₹11 LPA,Full-time
+Media,Video Editor,"Hyderabad, India",₹22 LPA,Full-time
+Environmental Science,Ecologist,"Mumbai, India",₹34 LPA,Hybrid
+Robotics,Control Systems Engineer,"Bangalore, India",₹16 LPA,Contract
+Hotel Management,Hotel Manager,"London, UK",$133k/year,Hybrid
+Law,Corporate Lawyer,"Hyderabad, India",₹13 LPA,Hybrid
+Agriculture,Food Scientist,"Delhi NCR, India",₹29 LPA,Full-time
+Banking,Investment Banker,"Delhi NCR, India",₹16 LPA,Full-time
+Robotics,Embedded Systems Developer,"New York, USA",$81k/year,Hybrid
+Pharmacy,Pharmacologist,"Pune, India",₹34 LPA,Contract
+Management,Project Manager,"New York, USA",$104k/year,Hybrid
+Education,School Principal,"Hyderabad, India",₹11 LPA,Hybrid
+Robotics,Embedded Systems Developer,"Dubai, UAE",₹23 LPA,Full-time
+Banking,Relationship Manager,"Pune, India",₹8 LPA,Full-time
+Computer Science,Data Scientist,"Pune, India",₹5 LPA,Hybrid
+UPSC,IAS Officer,"Delhi NCR, India",₹6 LPA,Hybrid
+Banking,Credit Analyst,"Dubai, UAE",₹28 LPA,Full-time
+Law,IPR Lawyer,"Delhi NCR, India",₹5 LPA,Contract
+Management,Business Analyst,"Mumbai, India",₹14 LPA,Hybrid
+Civil Engineering,Structural Engineer,Singapore,$115k/year,Contract
+Management,Marketing Executive,"Dubai, UAE",₹19 LPA,Contract
+Robotics,Automation Developer,"New York, USA",$84k/year,Hybrid
+Management,Marketing Executive,"Delhi NCR, India",₹14 LPA,Hybrid
+Management,Operations Manager,"Hyderabad, India",₹13 LPA,Contract
+Medical,Surgeon,"Hyderabad, India",₹27 LPA,Contract
+Computer Science,Full Stack Developer,"Dubai, UAE",₹20 LPA,Contract
+Management,Project Manager,Singapore,$114k/year,Contract
+Information Technology,Cloud Architect,"Pune, India",₹28 LPA,Full-time
+Banking,Branch Manager,"Mumbai, India",₹17 LPA,Hybrid
+Banking,Credit Analyst,"Delhi NCR, India",₹35 LPA,Hybrid
+Robotics,Computer Vision Engineer,"New York, USA",$61k/year,Hybrid
+Computer Science,Backend Developer,"Bangalore, India",₹26 LPA,Full-time
+Pharmacy,Drug Safety Officer,"Dubai, UAE",₹28 LPA,Hybrid
+Computer Science,Data Scientist,Singapore,$97k/year,Full-time
+Banking,Relationship Manager,"New York, USA",$90k/year,Full-time
+Management,Project Manager,"Hyderabad, India",₹28 LPA,Hybrid
+Design,UI/UX Designer,"Bangalore, India",₹21 LPA,Contract
+Pharmacy,Medical Representative,"Dubai, UAE",₹22 LPA,Hybrid
+Medical,General Practitioner,"London, UK",$130k/year,Hybrid
+Environmental Science,Environmental Consultant,"Hyderabad, India",₹27 LPA,Contract
+Law,Compliance Officer,"Pune, India",₹5 LPA,Hybrid
+Civil Engineering,Quantity Surveyor,"Delhi NCR, India",₹32 LPA,Contract
+Information Technology,Cybersecurity Analyst,"Hyderabad, India",₹12 LPA,Contract
+Computer Science,AI Engineer,"Bangalore, India",₹10 LPA,Full-time
+Pharmacy,Pharmacist,"Hyderabad, India",₹28 LPA,Hybrid
+Medical,Surgeon,"London, UK",$108k/year,Hybrid
+Robotics,Automation Developer,"Dubai, UAE",₹27 LPA,Full-time
+Commerce,Chartered Accountant,"Pune, India",₹5 LPA,Contract
+Agriculture,Farm Manager,Singapore,$84k/year,Hybrid
+Media,Content Strategist,"Mumbai, India",₹11 LPA,Contract
+Information Technology,Network Engineer,"New York, USA",$102k/year,Hybrid
+Robotics,Robotics Engineer,"Mumbai, India",₹16 LPA,Hybrid
+UPSC,IPS Officer,Singapore,$129k/year,Full-time
+Civil Engineering,Construction Manager,"Delhi NCR, India",₹20 LPA,Contract
+Law,Compliance Officer,"London, UK",$95k/year,Full-time
+Civil Engineering,Urban Planner,"Bangalore, India",₹20 LPA,Contract
+Management,Project Manager,Singapore,$68k/year,Full-time
+Environmental Science,EHS Officer,"New York, USA",$90k/year,Hybrid
+Computer Science,Data Scientist,Remote,₹30 LPA,Contract
+Information Technology,Cloud Architect,"London, UK",$142k/year,Hybrid
+Commerce,Tax Consultant,"Hyderabad, India",₹35 LPA,Hybrid
+Robotics,Automation Developer,Remote,₹14 LPA,Hybrid
+Environmental Science,Sustainability Manager,Singapore,$82k/year,Hybrid
+Law,IPR Lawyer,"London, UK",$108k/year,Hybrid
+Environmental Science,EHS Officer,Remote,₹13 LPA,Full-time
+Hotel Management,Front Office Manager,"London, UK",$87k/year,Contract
+Pharmacy,Pharmacologist,"Delhi NCR, India",₹25 LPA,Contract
+Law,Legal Consultant,"Hyderabad, India",₹13 LPA,Contract
+Hotel Management,Front Office Manager,"Pune, India",₹14 LPA,Hybrid
+Information Technology,System Administrator,"Bangalore, India",₹11 LPA,Contract
+Banking,Credit Analyst,Singapore,$94k/year,Full-time
+Law,Corporate Lawyer,"London, UK",$114k/year,Hybrid
+Commerce,Investment Advisor,Singapore,$105k/year,Full-time
+Media,Content Strategist,"Hyderabad, India",₹31 LPA,Contract
+Banking,Relationship Manager,"Delhi NCR, India",₹25 LPA,Hybrid
+Design,Interior Designer,"Mumbai, India",₹30 LPA,Hybrid
+Information Technology,Network Engineer,"London, UK",$138k/year,Contract
+Education,School Principal,"New York, USA",$114k/year,Hybrid
+Education,E-learning Specialist,"New York, USA",$67k/year,Contract
+Media,Video Editor,Singapore,$72k/year,Full-time
+UPSC,IRS Officer,"Mumbai, India",₹6 LPA,Contract
+Education,Academic Coordinator,Remote,₹22 LPA,Full-time
+Media,Public Relations Specialist,"Hyderabad, India",₹20 LPA,Contract
+Pharmacy,Drug Safety Officer,Remote,₹22 LPA,Hybrid
+Education,Academic Coordinator,"London, UK",$63k/year,Hybrid
+Management,HR Manager,"Dubai, UAE",₹32 LPA,Hybrid
+Robotics,Robotics Engineer,Singapore,$137k/year,Full-time
+UPSC,Public Policy Analyst,Remote,₹20 LPA,Contract
+Environmental Science,Sustainability Manager,Singapore,$88k/year,Full-time
+Education,School Principal,"Delhi NCR, India",₹22 LPA,Contract
+Medical,Medical Researcher,"Pune, India",₹23 LPA,Full-time
+Commerce,Tax Consultant,"Pune, India",₹12 LPA,Hybrid
+Civil Engineering,Construction Manager,"Dubai, UAE",₹25 LPA,Contract
+Information Technology,System Administrator,"Bangalore, India",₹21 LPA,Hybrid
+Information Technology,System Administrator,"Delhi NCR, India",₹20 LPA,Contract
+Media,Public Relations Specialist,"Mumbai, India",₹29 LPA,Contract
+Management,Marketing Executive,"Delhi NCR, India",₹5 LPA,Hybrid
+Education,E-learning Specialist,"Dubai, UAE",₹23 LPA,Hybrid
+Education,Educational Consultant,"Pune, India",₹21 LPA,Hybrid
+Pharmacy,Medical Representative,"New York, USA",$83k/year,Contract
+Commerce,Financial Analyst,"Dubai, UAE",₹18 LPA,Full-time
+UPSC,IFS Officer,Singapore,$72k/year,Hybrid
+Media,Public Relations Specialist,"Dubai, UAE",₹13 LPA,Contract
+Agriculture,Soil Scientist,"London, UK",$144k/year,Full-time
+Banking,Risk Management Officer,"London, UK",$135k/year,Hybrid
+Robotics,Control Systems Engineer,"Bangalore, India",₹21 LPA,Hybrid
+Computer Science,Backend Developer,"Dubai, UAE",₹28 LPA,Contract
+Robotics,Automation Developer,"Mumbai, India",₹20 LPA,Hybrid
+Law,Corporate Lawyer,"Mumbai, India",₹24 LPA,Full-time
+Computer Science,Full Stack Developer,"Delhi NCR, India",₹16 LPA,Full-time
+Media,Video Editor,"Dubai, UAE",₹8 LPA,Full-time
+Banking,Relationship Manager,Singapore,$84k/year,Full-time
+Management,Marketing Executive,"Mumbai, India",₹25 LPA,Full-time
+Robotics,Automation Developer,"Dubai, UAE",₹26 LPA,Hybrid
+Banking,Risk Management Officer,"Hyderabad, India",₹9 LPA,Full-time
+Law,Compliance Officer,"Hyderabad, India",₹31 LPA,Full-time
+Civil Engineering,Quantity Surveyor,"London, UK",$95k/year,Contract
+Pharmacy,Drug Safety Officer,"Hyderabad, India",₹16 LPA,Hybrid
+Civil Engineering,Urban Planner,"Delhi NCR, India",₹13 LPA,Contract
+Environmental Science,EHS Officer,"London, UK",$68k/year,Full-time
+Education,E-learning Specialist,"London, UK",$120k/year,Hybrid
+Hotel Management,Event Coordinator,Singapore,$137k/year,Hybrid
+Agriculture,Agronomist,"Dubai, UAE",₹12 LPA,Hybrid
+Computer Science,Data Scientist,"London, UK",$117k/year,Hybrid
+Commerce,Investment Advisor,"New York, USA",$121k/year,Full-time
+Pharmacy,Drug Safety Officer,Remote,₹19 LPA,Full-time
+Banking,Branch Manager,"Hyderabad, India",₹28 LPA,Contract
+Robotics,Computer Vision Engineer,"Delhi NCR, India",₹11 LPA,Hybrid
+Design,UI/UX Designer,Singapore,$117k/year,Full-time
+Commerce,Financial Analyst,"Dubai, UAE",₹34 LPA,Full-time
+Management,Business Analyst,Singapore,$79k/year,Hybrid
+Education,Curriculum Developer,"Mumbai, India",₹17 LPA,Full-time
+Robotics,Computer Vision Engineer,"New York, USA",$104k/year,Hybrid
+Law,Compliance Officer,"Pune, India",₹32 LPA,Full-time
+Environmental Science,Sustainability Manager,"Mumbai, India",₹27 LPA,Hybrid
+Robotics,Embedded Systems Developer,"Delhi NCR, India",₹34 LPA,Contract
+UPSC,IAS Officer,Remote,₹17 LPA,Hybrid
+Robotics,Computer Vision Engineer,"Hyderabad, India",₹10 LPA,Hybrid
+Computer Science,Data Scientist,Remote,₹16 LPA,Full-time
+Robotics,Automation Developer,Singapore,$76k/year,Contract
+Media,Journalist,"Dubai, UAE",₹6 LPA,Hybrid
+Robotics,Robotics Engineer,Remote,₹31 LPA,Hybrid
+Hotel Management,Front Office Manager,"London, UK",$63k/year,Contract
+Robotics,Automation Developer,Singapore,$68k/year,Full-time
+Environmental Science,EHS Officer,"Dubai, UAE",₹15 LPA,Contract
+Robotics,Embedded Systems Developer,Remote,₹26 LPA,Full-time
+Media,Content Strategist,"Mumbai, India",₹30 LPA,Hybrid
+Medical,General Practitioner,Remote,₹8 LPA,Full-time
+Hotel Management,Front Office Manager,"Delhi NCR, India",₹20 LPA,Hybrid
+Hotel Management,Event Coordinator,"Mumbai, India",₹23 LPA,Contract
+Civil Engineering,Quantity Surveyor,"Mumbai, India",₹31 LPA,Hybrid
+Design,Fashion Designer,"Pune, India",₹18 LPA,Contract
+Hotel Management,Event Coordinator,"Dubai, UAE",₹30 LPA,Full-time
+Hotel Management,Restaurant Manager,"Bangalore, India",₹29 LPA,Full-time
+Media,Journalist,"London, UK",$127k/year,Full-time
+Education,Curriculum Developer,"Pune, India",₹6 LPA,Hybrid
+UPSC,IPS Officer,"Hyderabad, India",₹8 LPA,Contract
+Commerce,Tax Consultant,"Dubai, UAE",₹24 LPA,Full-time
+Robotics,Computer Vision Engineer,Remote,₹26 LPA,Contract
+Medical,Surgeon,"Delhi NCR, India",₹16 LPA,Full-time
+Medical,Pediatrician,Singapore,$116k/year,Full-time
+Education,Educational Consultant,"Delhi NCR, India",₹5 LPA,Contract
+Management,Project Manager,Singapore,$143k/year,Hybrid
+Design,Interior Designer,"Delhi NCR, India",₹5 LPA,Hybrid
+Education,Academic Coordinator,"London, UK",$122k/year,Full-time
+Commerce,Tax Consultant,"New York, USA",$107k/year,Hybrid
+Agriculture,Agronomist,"London, UK",$65k/year,Contract
+UPSC,IRS Officer,"New York, USA",$101k/year,Contract
+Civil Engineering,Structural Engineer,"Hyderabad, India",₹6 LPA,Hybrid
+Law,Corporate Lawyer,Singapore,$136k/year,Contract
+Information Technology,IT Support Specialist,"London, UK",$94k/year,Contract
+Hotel Management,Executive Chef,"Delhi NCR, India",₹26 LPA,Hybrid
+Robotics,Automation Developer,"Delhi NCR, India",₹11 LPA,Full-time
+Commerce,Chartered Accountant,"Dubai, UAE",₹9 LPA,Hybrid
+Medical,Medical Researcher,"Delhi NCR, India",₹21 LPA,Contract
+Commerce,Auditor,"Hyderabad, India",₹21 LPA,Full-time
+Management,HR Manager,"Dubai, UAE",₹7 LPA,Hybrid
+Medical,Medical Researcher,"Mumbai, India",₹10 LPA,Contract
+Information Technology,IT Support Specialist,"London, UK",$90k/year,Contract
+Hotel Management,Hotel Manager,"Dubai, UAE",₹21 LPA,Full-time
+Agriculture,Soil Scientist,"Hyderabad, India",₹13 LPA,Hybrid
+Civil Engineering,Urban Planner,Remote,₹9 LPA,Contract
+UPSC,IAS Officer,"Bangalore, India",₹22 LPA,Full-time
+Medical,Registered Nurse,"Pune, India",₹23 LPA,Hybrid
+Information Technology,IT Support Specialist,"London, UK",$83k/year,Full-time
+Environmental Science,Sustainability Manager,"Bangalore, India",₹19 LPA,Hybrid
+Agriculture,Agricultural Consultant,"Dubai, UAE",₹18 LPA,Full-time
+Management,Project Manager,"Hyderabad, India",₹34 LPA,Full-time
+Design,UI/UX Designer,Singapore,$90k/year,Contract
+Information Technology,Cloud Architect,"Pune, India",₹8 LPA,Full-time
+Pharmacy,Pharmacist,"London, UK",$60k/year,Full-time
+Education,E-learning Specialist,"Bangalore, India",₹27 LPA,Contract
+Agriculture,Food Scientist,"Dubai, UAE",₹35 LPA,Hybrid
+Commerce,Tax Consultant,"New York, USA",$66k/year,Contract
+Robotics,Embedded Systems Developer,"Bangalore, India",₹17 LPA,Contract
+Medical,Registered Nurse,"Bangalore, India",₹12 LPA,Contract
+Education,School Principal,"Mumbai, India",₹28 LPA,Hybrid
+Management,Project Manager,"Mumbai, India",₹23 LPA,Contract
+Law,Legal Consultant,"New York, USA",$101k/year,Full-time
+Education,Educational Consultant,"New York, USA",$84k/year,Contract
+Environmental Science,Environmental Consultant,Singapore,$96k/year,Contract
+Commerce,Financial Analyst,"New York, USA",$137k/year,Hybrid
+Media,Content Strategist,Remote,₹35 LPA,Contract
+Computer Science,Backend Developer,"Hyderabad, India",₹5 LPA,Contract
+Education,E-learning Specialist,"Dubai, UAE",₹27 LPA,Contract
+Design,Interior Designer,"London, UK",$138k/year,Hybrid
+Design,Graphic Designer,"Hyderabad, India",₹26 LPA,Hybrid
+Computer Science,AI Engineer,"Dubai, UAE",₹29 LPA,Full-time
+Medical,Surgeon,"Bangalore, India",₹15 LPA,Contract
+Pharmacy,Medical Representative,"Delhi NCR, India",₹31 LPA,Full-time
+Management,HR Manager,"New York, USA",$76k/year,Full-time
+Commerce,Financial Analyst,"Mumbai, India",₹5 LPA,Contract
+Civil Engineering,Quantity Surveyor,"Hyderabad, India",₹18 LPA,Contract
+Media,Content Strategist,"Delhi NCR, India",₹5 LPA,Contract
+Law,Corporate Lawyer,"Mumbai, India",₹6 LPA,Contract
+Civil Engineering,Construction Manager,"Hyderabad, India",₹22 LPA,Full-time
+Design,Fashion Designer,"London, UK",$141k/year,Hybrid
+Hotel Management,Hotel Manager,"Bangalore, India",₹29 LPA,Hybrid
+Hotel Management,Front Office Manager,"Delhi NCR, India",₹34 LPA,Contract
+Robotics,Automation Developer,"New York, USA",$94k/year,Contract
+Information Technology,Cybersecurity Analyst,Singapore,$106k/year,Hybrid
+Information Technology,IT Support Specialist,"Bangalore, India",₹24 LPA,Contract
+Robotics,Robotics Engineer,"Mumbai, India",₹11 LPA,Contract
+Robotics,Embedded Systems Developer,"Mumbai, India",₹24 LPA,Hybrid
+Banking,Risk Management Officer,Remote,₹6 LPA,Contract
+Civil Engineering,Urban Planner,"New York, USA",$141k/year,Full-time
+Civil Engineering,Site Engineer,"Bangalore, India",₹28 LPA,Full-time
+Law,IPR Lawyer,"Pune, India",₹20 LPA,Hybrid
+Environmental Science,Conservation Scientist,Singapore,$94k/year,Contract
+Law,Legal Consultant,Remote,₹21 LPA,Hybrid
+Agriculture,Soil Scientist,Remote,₹5 LPA,Hybrid
+Robotics,Computer Vision Engineer,Singapore,$124k/year,Full-time
+Commerce,Auditor,"Delhi NCR, India",₹23 LPA,Hybrid
+Robotics,Computer Vision Engineer,"Mumbai, India",₹14 LPA,Full-time
+Banking,Branch Manager,"London, UK",$149k/year,Full-time
+Design,Fashion Designer,"Bangalore, India",₹12 LPA,Hybrid
+Robotics,Control Systems Engineer,Remote,₹29 LPA,Contract
+Agriculture,Agricultural Consultant,"Dubai, UAE",₹13 LPA,Contract
+Banking,Risk Management Officer,Singapore,$104k/year,Full-time
+Design,Interior Designer,Singapore,$74k/year,Contract
+Environmental Science,Conservation Scientist,"Hyderabad, India",₹10 LPA,Contract
+Management,Operations Manager,"New York, USA",$110k/year,Hybrid
+Design,Product Designer,Remote,₹35 LPA,Full-time
+Hotel Management,Front Office Manager,"Delhi NCR, India",₹23 LPA,Contract
+Law,IPR Lawyer,"New York, USA",$148k/year,Contract
+Design,UI/UX Designer,"London, UK",$131k/year,Full-time
+Agriculture,Agricultural Consultant,"London, UK",$78k/year,Contract
+Media,Content Strategist,"Mumbai, India",₹30 LPA,Contract
+Computer Science,Data Scientist,Remote,₹7 LPA,Hybrid
+Banking,Risk Management Officer,"Bangalore, India",₹6 LPA,Contract
+Environmental Science,Sustainability Manager,"Hyderabad, India",₹11 LPA,Contract
+Commerce,Tax Consultant,Remote,₹12 LPA,Full-time
+Commerce,Investment Advisor,"London, UK",$112k/year,Full-time
+Information Technology,Cloud Architect,Remote,₹33 LPA,Full-time
+Education,Curriculum Developer,Remote,₹8 LPA,Contract
+UPSC,Public Policy Analyst,"New York, USA",$129k/year,Hybrid
+Education,Academic Coordinator,"Bangalore, India",₹14 LPA,Full-time
+Pharmacy,Pharmacologist,"Delhi NCR, India",₹24 LPA,Contract
+Civil Engineering,Quantity Surveyor,"Bangalore, India",₹30 LPA,Contract
+Media,Journalist,"New York, USA",$104k/year,Contract
+Commerce,Tax Consultant,"Mumbai, India",₹34 LPA,Full-time
+Banking,Credit Analyst,Remote,₹23 LPA,Contract
+Environmental Science,Ecologist,"Pune, India",₹25 LPA,Hybrid
+Design,UI/UX Designer,"Hyderabad, India",₹33 LPA,Full-time
+Management,Operations Manager,"Hyderabad, India",₹34 LPA,Hybrid
+Education,Educational Consultant,"Bangalore, India",₹23 LPA,Hybrid
+Information Technology,Cybersecurity Analyst,"London, UK",$63k/year,Contract
+Environmental Science,Environmental Consultant,Singapore,$96k/year,Contract
+Information Technology,System Administrator,"Mumbai, India",₹30 LPA,Full-time
+UPSC,Public Policy Analyst,"Bangalore, India",₹21 LPA,Full-time
+Education,Curriculum Developer,"Dubai, UAE",₹17 LPA,Hybrid
+Robotics,Robotics Engineer,"London, UK",$62k/year,Hybrid
+Computer Science,Data Scientist,"Bangalore, India",₹32 LPA,Hybrid
+Civil Engineering,Quantity Surveyor,"Mumbai, India",₹7 LPA,Hybrid
+Information Technology,IT Support Specialist,"Mumbai, India",₹8 LPA,Contract
+Information Technology,Network Engineer,Singapore,$119k/year,Contract
+Law,Legal Consultant,"Hyderabad, India",₹16 LPA,Hybrid
+Hotel Management,Hotel Manager,"Pune, India",₹7 LPA,Hybrid
+Medical,Medical Researcher,"New York, USA",$143k/year,Hybrid
+Media,Social Media Manager,"Bangalore, India",₹19 LPA,Hybrid
+Agriculture,Farm Manager,"Hyderabad, India",₹11 LPA,Hybrid
+Medical,General Practitioner,"Mumbai, India",₹30 LPA,Full-time
+Management,Operations Manager,Singapore,$119k/year,Full-time
+Computer Science,Full Stack Developer,"Mumbai, India",₹20 LPA,Full-time
+UPSC,IRS Officer,"Dubai, UAE",₹10 LPA,Full-time
+Medical,Pediatrician,"Bangalore, India",₹5 LPA,Hybrid
+Robotics,Computer Vision Engineer,Remote,₹22 LPA,Full-time
+Hotel Management,Executive Chef,"London, UK",$117k/year,Contract
+Environmental Science,Environmental Consultant,"New York, USA",$85k/year,Hybrid
+Agriculture,Food Scientist,"Dubai, UAE",₹10 LPA,Contract
+Hotel Management,Executive Chef,"New York, USA",$85k/year,Full-time
+Computer Science,Data Scientist,"Pune, India",₹11 LPA,Full-time
+Pharmacy,Pharmacist,Singapore,$100k/year,Full-time
+Law,Legal Consultant,"London, UK",$114k/year,Full-time
+Banking,Credit Analyst,"Delhi NCR, India",₹24 LPA,Full-time
+Law,Compliance Officer,"London, UK",$107k/year,Hybrid
+Commerce,Investment Advisor,"New York, USA",$73k/year,Contract
+Civil Engineering,Quantity Surveyor,"Pune, India",₹35 LPA,Hybrid
+Environmental Science,Environmental Consultant,"Pune, India",₹21 LPA,Contract
+Pharmacy,Medical Representative,Singapore,$123k/year,Hybrid
+UPSC,IRS Officer,"Mumbai, India",₹27 LPA,Hybrid
+UPSC,Public Policy Analyst,"Pune, India",₹15 LPA,Contract
+Media,Content Strategist,"Hyderabad, India",₹26 LPA,Contract
+Design,Graphic Designer,"Hyderabad, India",₹10 LPA,Full-time
+Agriculture,Agronomist,"London, UK",$96k/year,Contract
+Design,UI/UX Designer,"Hyderabad, India",₹25 LPA,Hybrid
+Computer Science,Backend Developer,"Delhi NCR, India",₹20 LPA,Contract
+Media,Social Media Manager,"London, UK",$140k/year,Hybrid
+UPSC,IPS Officer,"Hyderabad, India",₹31 LPA,Hybrid
+Management,Business Analyst,"New York, USA",$128k/year,Contract
+Media,Content Strategist,"New York, USA",$73k/year,Contract
+Medical,Registered Nurse,"Pune, India",₹32 LPA,Contract
+Robotics,Control Systems Engineer,"Hyderabad, India",₹22 LPA,Full-time
+Commerce,Investment Advisor,"Hyderabad, India",₹17 LPA,Hybrid
+Computer Science,Software Engineer,"Bangalore, India",₹12 LPA,Hybrid
+Computer Science,Full Stack Developer,"New York, USA",$146k/year,Hybrid
+Computer Science,Software Engineer,"Delhi NCR, India",₹30 LPA,Full-time
+Robotics,Robotics Engineer,Singapore,$103k/year,Hybrid
+Banking,Relationship Manager,"New York, USA",$129k/year,Hybrid
+Pharmacy,Pharmacologist,"Bangalore, India",₹35 LPA,Full-time
+Management,Marketing Executive,Remote,₹22 LPA,Contract
+Media,Social Media Manager,Remote,₹17 LPA,Full-time
+Management,HR Manager,"London, UK",$60k/year,Full-time
+Agriculture,Food Scientist,"Bangalore, India",₹14 LPA,Full-time
+Medical,General Practitioner,Singapore,$126k/year,Hybrid
+Media,Content Strategist,Remote,₹30 LPA,Contract
+Robotics,Control Systems Engineer,"Mumbai, India",₹9 LPA,Hybrid
+Education,Academic Coordinator,"Delhi NCR, India",₹8 LPA,Contract
+Banking,Risk Management Officer,"London, UK",$147k/year,Contract
+Media,Social Media Manager,"Delhi NCR, India",₹35 LPA,Hybrid
+Media,Video Editor,"Hyderabad, India",₹8 LPA,Hybrid
+Civil Engineering,Construction Manager,Remote,₹15 LPA,Full-time
+Robotics,Embedded Systems Developer,"Dubai, UAE",₹27 LPA,Hybrid
+Civil Engineering,Urban Planner,"Delhi NCR, India",₹11 LPA,Contract
+Environmental Science,Ecologist,"Hyderabad, India",₹14 LPA,Contract
+Banking,Relationship Manager,"London, UK",$62k/year,Hybrid
+Management,HR Manager,"New York, USA",$130k/year,Hybrid
+Law,IPR Lawyer,"Bangalore, India",₹15 LPA,Contract
+Commerce,Investment Advisor,Remote,₹22 LPA,Hybrid
+Design,Fashion Designer,"London, UK",$106k/year,Contract
+Robotics,Embedded Systems Developer,Singapore,$73k/year,Full-time
+Environmental Science,Sustainability Manager,"Mumbai, India",₹22 LPA,Hybrid
+UPSC,IRS Officer,"Dubai, UAE",₹18 LPA,Full-time
+Environmental Science,EHS Officer,Remote,₹19 LPA,Full-time
+Hotel Management,Hotel Manager,"Delhi NCR, India",₹29 LPA,Hybrid
+Hotel Management,Front Office Manager,"Delhi NCR, India",₹11 LPA,Contract
+Information Technology,Cybersecurity Analyst,Remote,₹30 LPA,Contract
+Commerce,Investment Advisor,"Dubai, UAE",₹19 LPA,Contract
+Computer Science,Backend Developer,"New York, USA",$121k/year,Full-time
+Information Technology,IT Support Specialist,Singapore,$72k/year,Hybrid
+Education,E-learning Specialist,"Delhi NCR, India",₹25 LPA,Full-time
+Robotics,Robotics Engineer,"Mumbai, India",₹11 LPA,Contract
+Robotics,Robotics Engineer,"Mumbai, India",₹29 LPA,Hybrid
+Civil Engineering,Urban Planner,"Bangalore, India",₹28 LPA,Contract
+Robotics,Embedded Systems Developer,Singapore,$135k/year,Contract
+Information Technology,Network Engineer,"Dubai, UAE",₹23 LPA,Hybrid
+Pharmacy,Clinical Research Associate,"New York, USA",$149k/year,Contract
+Banking,Branch Manager,"Delhi NCR, India",₹29 LPA,Contract
+Medical,Pediatrician,"Delhi NCR, India",₹6 LPA,Hybrid
+Hotel Management,Hotel Manager,"Bangalore, India",₹35 LPA,Hybrid
+Environmental Science,Environmental Consultant,Remote,₹9 LPA,Full-time
+Agriculture,Food Scientist,"London, UK",$108k/year,Contract
+Commerce,Financial Analyst,"Mumbai, India",₹17 LPA,Hybrid
+Information Technology,System Administrator,"Dubai, UAE",₹13 LPA,Full-time
+Law,Compliance Officer,Singapore,$84k/year,Contract
+Robotics,Robotics Engineer,Singapore,$108k/year,Contract
+Environmental Science,Environmental Consultant,Singapore,$135k/year,Hybrid
+Robotics,Robotics Engineer,"New York, USA",$146k/year,Full-time
+Commerce,Investment Advisor,"Pune, India",₹15 LPA,Contract
+Agriculture,Agricultural Consultant,"Mumbai, India",₹28 LPA,Hybrid
+Banking,Relationship Manager,"Mumbai, India",₹26 LPA,Hybrid
+Management,Marketing Executive,"Delhi NCR, India",₹14 LPA,Hybrid
+Robotics,Control Systems Engineer,"London, UK",$138k/year,Hybrid
+UPSC,IFS Officer,"London, UK",$120k/year,Contract
+Robotics,Embedded Systems Developer,"Dubai, UAE",₹29 LPA,Contract
+Medical,General Practitioner,"Bangalore, India",₹35 LPA,Full-time
+Agriculture,Agronomist,"New York, USA",$87k/year,Full-time
+Hotel Management,Executive Chef,"Mumbai, India",₹22 LPA,Full-time
+Medical,Registered Nurse,"London, UK",$104k/year,Hybrid
+Education,Educational Consultant,"Hyderabad, India",₹6 LPA,Hybrid
+Banking,Relationship Manager,"Dubai, UAE",₹17 LPA,Full-time
+Banking,Credit Analyst,"Pune, India",₹15 LPA,Hybrid
+Management,Business Analyst,"Bangalore, India",₹33 LPA,Full-time
+Management,Marketing Executive,"Bangalore, India",₹26 LPA,Contract
+Robotics,Embedded Systems Developer,Remote,₹32 LPA,Full-time
+UPSC,IPS Officer,"New York, USA",$146k/year,Full-time
+Design,Fashion Designer,"New York, USA",$91k/year,Hybrid
+Design,Fashion Designer,Remote,₹25 LPA,Contract
+Information Technology,Cybersecurity Analyst,"London, UK",$85k/year,Full-time
+Law,Corporate Lawyer,"Bangalore, India",₹34 LPA,Full-time
+Media,Public Relations Specialist,"Mumbai, India",₹29 LPA,Contract
+Management,Marketing Executive,Singapore,$70k/year,Full-time
+Robotics,Control Systems Engineer,"New York, USA",$67k/year,Hybrid
+Information Technology,Network Engineer,"Dubai, UAE",₹28 LPA,Full-time
+Agriculture,Agronomist,"Delhi NCR, India",₹8 LPA,Contract
+Environmental Science,Sustainability Manager,"Mumbai, India",₹8 LPA,Hybrid
+Robotics,Robotics Engineer,"Hyderabad, India",₹19 LPA,Hybrid
+Design,Graphic Designer,"London, UK",$127k/year,Full-time
+Computer Science,Backend Developer,"Delhi NCR, India",₹12 LPA,Full-time
+Education,E-learning Specialist,"Delhi NCR, India",₹15 LPA,Hybrid
+Commerce,Financial Analyst,"Pune, India",₹7 LPA,Contract
+Medical,Registered Nurse,"Pune, India",₹24 LPA,Full-time
+UPSC,IAS Officer,"Bangalore, India",₹34 LPA,Hybrid
+Pharmacy,Pharmacist,"Dubai, UAE",₹29 LPA,Contract
+Agriculture,Agronomist,"Hyderabad, India",₹28 LPA,Full-time
+Environmental Science,Sustainability Manager,"Bangalore, India",₹7 LPA,Contract
+Banking,Branch Manager,"Pune, India",₹27 LPA,Full-time
+Education,E-learning Specialist,"London, UK",$104k/year,Contract
+Commerce,Tax Consultant,Singapore,$96k/year,Contract
+Banking,Credit Analyst,"London, UK",$99k/year,Contract
+Media,Content Strategist,"London, UK",$85k/year,Hybrid
+Design,Graphic Designer,"Bangalore, India",₹13 LPA,Hybrid
+Media,Journalist,"Bangalore, India",₹28 LPA,Contract
+Robotics,Computer Vision Engineer,"Dubai, UAE",₹15 LPA,Contract
+Education,Educational Consultant,"Mumbai, India",₹10 LPA,Full-time
+Media,Video Editor,"Bangalore, India",₹24 LPA,Contract
+Banking,Investment Banker,"London, UK",$131k/year,Contract
+UPSC,IPS Officer,Singapore,$93k/year,Contract
+UPSC,IAS Officer,"Pune, India",₹11 LPA,Full-time
+Law,Compliance Officer,"Delhi NCR, India",₹19 LPA,Contract
+Commerce,Financial Analyst,"Pune, India",₹29 LPA,Hybrid
+Civil Engineering,Quantity Surveyor,Remote,₹15 LPA,Full-time
+Environmental Science,Ecologist,"Mumbai, India",₹10 LPA,Contract
+Education,School Principal,"London, UK",$139k/year,Full-time
+Hotel Management,Restaurant Manager,Remote,₹7 LPA,Hybrid
+Robotics,Robotics Engineer,"New York, USA",$110k/year,Contract
+Pharmacy,Clinical Research Associate,"Bangalore, India",₹31 LPA,Contract
+Law,Legal Consultant,"London, UK",$98k/year,Full-time
+Information Technology,Cybersecurity Analyst,"London, UK",$128k/year,Hybrid
+Commerce,Auditor,Remote,₹10 LPA,Full-time
+Hotel Management,Front Office Manager,"Dubai, UAE",₹27 LPA,Hybrid
+Media,Journalist,"Hyderabad, India",₹29 LPA,Contract
+Banking,Branch Manager,"Pune, India",₹7 LPA,Hybrid
+Commerce,Financial Analyst,"Delhi NCR, India",₹21 LPA,Hybrid
+Banking,Risk Management Officer,"Delhi NCR, India",₹14 LPA,Hybrid
+Education,E-learning Specialist,Singapore,$72k/year,Hybrid
+Commerce,Tax Consultant,"Bangalore, India",₹35 LPA,Full-time
+Media,Public Relations Specialist,"Dubai, UAE",₹13 LPA,Full-time
+Pharmacy,Pharmacist,"London, UK",$87k/year,Hybrid
+UPSC,IPS Officer,"Pune, India",₹27 LPA,Contract
+Banking,Branch Manager,"New York, USA",$61k/year,Hybrid
+Computer Science,AI Engineer,Remote,₹21 LPA,Contract
+Robotics,Control Systems Engineer,"Mumbai, India",₹7 LPA,Hybrid
+Management,Marketing Executive,"Pune, India",₹6 LPA,Contract
+Management,Marketing Executive,"Mumbai, India",₹28 LPA,Hybrid
+Information Technology,IT Support Specialist,"Pune, India",₹31 LPA,Full-time
+Computer Science,Data Scientist,"Bangalore, India",₹32 LPA,Hybrid
+Agriculture,Food Scientist,"Hyderabad, India",₹13 LPA,Full-time
+Law,Litigation Lawyer,"Delhi NCR, India",₹6 LPA,Contract
+Media,Content Strategist,"Bangalore, India",₹32 LPA,Contract
+Robotics,Computer Vision Engineer,Remote,₹30 LPA,Contract
+Commerce,Chartered Accountant,"London, UK",$100k/year,Full-time
+Education,Educational Consultant,"Hyderabad, India",₹6 LPA,Contract
+Environmental Science,Ecologist,"New York, USA",$127k/year,Full-time
+Hotel Management,Executive Chef,"Delhi NCR, India",₹7 LPA,Full-time
+Computer Science,Full Stack Developer,"Hyderabad, India",₹10 LPA,Hybrid
+Law,Litigation Lawyer,"London, UK",$111k/year,Contract
+Agriculture,Farm Manager,"Hyderabad, India",₹30 LPA,Contract
+Management,Business Analyst,"London, UK",$73k/year,Hybrid
+Medical,General Practitioner,"Bangalore, India",₹6 LPA,Hybrid
+Robotics,Robotics Engineer,"Mumbai, India",₹35 LPA,Full-time
+Computer Science,AI Engineer,Remote,₹30 LPA,Contract
+UPSC,Public Policy Analyst,"Pune, India",₹10 LPA,Hybrid
+Media,Social Media Manager,Remote,₹35 LPA,Contract
+Medical,General Practitioner,"New York, USA",$99k/year,Hybrid
+Computer Science,Full Stack Developer,"Pune, India",₹29 LPA,Full-time
+Robotics,Control Systems Engineer,"Mumbai, India",₹34 LPA,Contract
+UPSC,IRS Officer,"Pune, India",₹29 LPA,Contract
+Education,E-learning Specialist,"New York, USA",$98k/year,Full-time
+Banking,Branch Manager,"Hyderabad, India",₹31 LPA,Hybrid
+Information Technology,Network Engineer,"London, UK",$81k/year,Full-time
+Pharmacy,Clinical Research Associate,"Bangalore, India",₹33 LPA,Hybrid
+Environmental Science,Sustainability Manager,"Pune, India",₹25 LPA,Hybrid
+Hotel Management,Front Office Manager,"Pune, India",₹22 LPA,Hybrid
+Agriculture,Agronomist,"Bangalore, India",₹29 LPA,Hybrid
+Computer Science,Data Scientist,"London, UK",$99k/year,Contract
+Environmental Science,EHS Officer,"New York, USA",$87k/year,Contract
+Medical,Medical Researcher,"Bangalore, India",₹34 LPA,Hybrid
+Media,Public Relations Specialist,"Delhi NCR, India",₹16 LPA,Contract
+Environmental Science,Conservation Scientist,"Hyderabad, India",₹35 LPA,Full-time
+Agriculture,Agronomist,"Hyderabad, India",₹25 LPA,Contract
+Media,Public Relations Specialist,Remote,₹25 LPA,Hybrid
+Law,IPR Lawyer,"New York, USA",$143k/year,Hybrid
+Management,Operations Manager,Singapore,$147k/year,Contract
+Commerce,Tax Consultant,"Hyderabad, India",₹27 LPA,Contract
+Law,Compliance Officer,Singapore,$108k/year,Hybrid
+Banking,Investment Banker,"London, UK",$115k/year,Contract
+Media,Public Relations Specialist,"Dubai, UAE",₹15 LPA,Contract
+Pharmacy,Drug Safety Officer,"Hyderabad, India",₹24 LPA,Contract
+Agriculture,Farm Manager,Remote,₹17 LPA,Contract
+Pharmacy,Drug Safety Officer,"Delhi NCR, India",₹7 LPA,Contract
+Management,Project Manager,"Dubai, UAE",₹5 LPA,Hybrid
+Agriculture,Soil Scientist,Singapore,$88k/year,Full-time
+Banking,Relationship Manager,"Delhi NCR, India",₹27 LPA,Hybrid
+Environmental Science,EHS Officer,"London, UK",$109k/year,Hybrid
+Media,Social Media Manager,"Pune, India",₹16 LPA,Full-time
+Pharmacy,Pharmacist,"Bangalore, India",₹34 LPA,Full-time
+Management,Operations Manager,"Hyderabad, India",₹17 LPA,Full-time
+Pharmacy,Pharmacist,"Bangalore, India",₹23 LPA,Hybrid
+Hotel Management,Hotel Manager,"Bangalore, India",₹30 LPA,Hybrid
+Hotel Management,Event Coordinator,"Hyderabad, India",₹30 LPA,Hybrid
+Hotel Management,Event Coordinator,"Bangalore, India",₹5 LPA,Hybrid
+Environmental Science,Ecologist,"Hyderabad, India",₹30 LPA,Hybrid
+Commerce,Financial Analyst,"New York, USA",$61k/year,Hybrid
+Agriculture,Food Scientist,Remote,₹29 LPA,Hybrid
+UPSC,IAS Officer,"New York, USA",$68k/year,Contract
+Pharmacy,Pharmacologist,"Mumbai, India",₹18 LPA,Hybrid
+Pharmacy,Drug Safety Officer,"Dubai, UAE",₹8 LPA,Hybrid
+Education,School Principal,Remote,₹12 LPA,Hybrid
+Education,E-learning Specialist,"New York, USA",$79k/year,Hybrid
+UPSC,Public Policy Analyst,"Mumbai, India",₹26 LPA,Full-time
+Hotel Management,Executive Chef,"London, UK",$87k/year,Contract
+Law,Corporate Lawyer,"Mumbai, India",₹11 LPA,Hybrid
+Information Technology,System Administrator,"London, UK",$114k/year,Full-time
+Pharmacy,Medical Representative,"Dubai, UAE",₹22 LPA,Full-time
+Medical,General Practitioner,Remote,₹6 LPA,Full-time
+Computer Science,Data Scientist,Remote,₹5 LPA,Hybrid
+Pharmacy,Clinical Research Associate,"Pune, India",₹24 LPA,Contract
+Management,Business Analyst,Remote,₹24 LPA,Hybrid
+Environmental Science,Ecologist,"Dubai, UAE",₹23 LPA,Full-time
+Commerce,Investment Advisor,Singapore,$104k/year,Full-time
+Environmental Science,Environmental Consultant,"Delhi NCR, India",₹17 LPA,Hybrid
+Environmental Science,Ecologist,Remote,₹29 LPA,Full-time
+Law,IPR Lawyer,"Dubai, UAE",₹15 LPA,Full-time
+Computer Science,Backend Developer,"Delhi NCR, India",₹25 LPA,Contract
+Management,Marketing Executive,"London, UK",$63k/year,Full-time
+Civil Engineering,Construction Manager,"Bangalore, India",₹5 LPA,Hybrid
+Media,Social Media Manager,"Hyderabad, India",₹25 LPA,Full-time
+Environmental Science,EHS Officer,"Bangalore, India",₹31 LPA,Hybrid
+Education,Curriculum Developer,"New York, USA",$146k/year,Full-time
+Pharmacy,Clinical Research Associate,"New York, USA",$116k/year,Hybrid
+Banking,Credit Analyst,"Hyderabad, India",₹25 LPA,Contract
+UPSC,IFS Officer,Singapore,$61k/year,Contract
+Agriculture,Agronomist,"Bangalore, India",₹20 LPA,Hybrid
+Education,School Principal,"Delhi NCR, India",₹25 LPA,Contract
+Environmental Science,EHS Officer,"Pune, India",₹5 LPA,Full-time
+Media,Journalist,"Mumbai, India",₹16 LPA,Full-time
+Robotics,Robotics Engineer,"Pune, India",₹28 LPA,Full-time
+Hotel Management,Front Office Manager,"Hyderabad, India",₹22 LPA,Hybrid
+Design,Interior Designer,"New York, USA",$145k/year,Full-time
+Medical,Surgeon,"Mumbai, India",₹7 LPA,Contract
+Commerce,Tax Consultant,"Delhi NCR, India",₹14 LPA,Hybrid
+Education,Educational Consultant,"Mumbai, India",₹18 LPA,Full-time
+Computer Science,Full Stack Developer,"Bangalore, India",₹28 LPA,Full-time
+Media,Video Editor,"Delhi NCR, India",₹31 LPA,Hybrid

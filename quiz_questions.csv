@@ -1,0 +1,171 @@
+Branch,Subject,Question,Option A,Option B,Option C,Option D,Correct_Answer
+Computer Science,Computer Science Basics,What is the time complexity of searching in a balanced Binary Search Tree?,O(n log n),O(1),O(log n),O(n),C
+Computer Science,Computer Science Basics,Which data structure uses the LIFO (Last In First Out) principle?,Array,Queue,Linked List,Stack,D
+Computer Science,Computer Science Basics,What does CPU stand for?,Central Processing Unit,Computer Processing Unit,Central Processor Unit,Central Process Unit,A
+Computer Science,Computer Science Basics,Which of the following is not a high-level programming language?,C++,Java,Python,Assembly,D
+Computer Science,Computer Science Basics,What is the primary function of an Operating System?,Web browsing,Managing hardware and software,Virus scanning,Word processing,B
+Computer Science,Computer Science Basics,Which sorting algorithm is known as the fastest on average?,Insertion Sort,Quick Sort,Bubble Sort,Selection Sort,B
+Computer Science,Computer Science Basics,"In SQL, which command is used to retrieve data from a database?",SELECT,INSERT,DELETE,UPDATE,A
+Computer Science,Computer Science Basics,What is the decimal equivalent of the binary number 1010?,14,8,12,10,D
+Computer Science,Computer Science Basics,Which protocol is used for secure communication over the internet?,FTP,HTTPS,HTTP,SMTP,B
+Computer Science,Computer Science Basics,What is the main purpose of a compiler?,To translate source code to machine code,To execute code,To debug code,To store data,A
+Information Technology,Information Technology Basics,What does IP stand for in networking?,Internet Provider,Internal Protocol,Internet Protocol,Instant Protocol,C
+Information Technology,Information Technology Basics,Which of the following is a type of cyber attack?,Phishing,Painting,Publishing,Paging,A
+Information Technology,Information Technology Basics,What is the main purpose of a Firewall?,To store backups,To cool the server,To speed up the internet,To block unauthorized access,D
+Information Technology,Information Technology Basics,What does SaaS stand for?,System as a Service,Storage as a Service,Software as a System,Software as a Service,D
+Information Technology,Information Technology Basics,Which of these is a popular Cloud Computing provider?,VLC Player,Microsoft Azure,Adobe Photoshop,Microsoft Word,B
+Information Technology,Information Technology Basics,What is the primary use of a VPN?,To increase internet speed,To download movies,To check emails,To encrypt and hide online activity,D
+Information Technology,Information Technology Basics,What does HTTP status code 404 mean?,Internal Server Error,Forbidden,Not Found,Success,C
+Information Technology,Information Technology Basics,Which device is used to connect multiple networks?,Switch,Router,Modem,Hub,B
+Information Technology,Information Technology Basics,What is 'Big Data'?,Data stored in the cloud,Data with large file size,Large and complex datasets,Old data,C
+Information Technology,Information Technology Basics,Which language is primarily used for styling web pages?,CSS,Python,HTML,SQL,A
+Medical,Medical Basics,What is the largest organ in the human body?,Heart,Liver,Skin,Lungs,C
+Medical,Medical Basics,Which part of the blood is responsible for clotting?,White blood cells,Red blood cells,Platelets,Plasma,C
+Medical,Medical Basics,How many bones are there in an adult human body?,210,200,196,206,D
+Medical,Medical Basics,What is the normal body temperature of a human?,40°C,39°C,37°C,35°C,C
+Medical,Medical Basics,Which organ is responsible for pumping blood?,Heart,Kidneys,Lungs,Brain,A
+Medical,Medical Basics,What is the main function of Red Blood Cells?,Carrying oxygen,Filtering toxins,Fighting infections,Digesting food,A
+Medical,Medical Basics,Which vitamin is produced when the skin is exposed to sunlight?,Vitamin C,Vitamin B,Vitamin D,Vitamin A,C
+Medical,Medical Basics,What is the medical term for high blood pressure?,Hypertension,Hypoglycemia,Hyperglycemia,Hypotension,A
+Medical,Medical Basics,Where in the human body is the femur located?,Arm,Skull,Leg,Spine,C
+Medical,Medical Basics,What is the basic unit of life?,Cell,Organ,Tissue,System,A
+Pharmacy,Pharmacy Basics,What is the primary site of drug metabolism in the body?,Kidneys,Lungs,Intestines,Liver,D
+Pharmacy,Pharmacy Basics,Which dosage form is designed to be placed under the tongue?,Sublingual,Topical,Oral,Parenteral,A
+Pharmacy,Pharmacy Basics,What does 'bid' mean on a prescription?,Four times a day,Twice a day,Three times a day,Once a day,B
+Pharmacy,Pharmacy Basics,What is a 'Placebo'?,A vaccine,An inactive substance,A strong antibiotic,A generic drug,B
+Pharmacy,Pharmacy Basics,Which of these is used to treat bacterial infections?,Antibiotic,Analgesic,Antiviral,Antifungal,A
+Pharmacy,Pharmacy Basics,What is the science of drug action called?,Pathology,Toxicology,Physiology,Pharmacology,D
+Pharmacy,Pharmacy Basics,Which organ is primarily responsible for drug excretion?,Kidneys,Liver,Skin,Lungs,A
+Pharmacy,Pharmacy Basics,What is an 'Analgesic' used for?,Lowering fever,Killing bacteria,Reducing pain,Treating cough,C
+Pharmacy,Pharmacy Basics,What does 'OTC' stand for in pharmacy?,Over the Counter,On the Case,Only to Customers,Over the Clinic,A
+Pharmacy,Pharmacy Basics,What is the main purpose of an enteric coating on a tablet?,To make it dissolve faster,To make it sweet,To change the color,To protect the stomach from the drug,D
+Agriculture,Agriculture Basics,Which soil is best for growing cotton?,Red soil,Alluvial soil,Sandy soil,Black soil,D
+Agriculture,Agriculture Basics,What is the main source of nutrients for plants?,Sunlight,Soil,Water,Air,B
+Agriculture,Agriculture Basics,Which of these is a Rabi crop?,Wheat,Rice,Cotton,Maize,A
+Agriculture,Agriculture Basics,What is 'Kharif' season associated with?,Monsoon,Winter,Spring,Summer,A
+Agriculture,Agriculture Basics,The process of removing weeds is called?,Sowing,Harvesting,Threshing,Weeding,D
+Agriculture,Agriculture Basics,Which element is primarily responsible for green color in plants?,Potassium,Magnesium,Iron,Nitrogen,B
+Agriculture,Agriculture Basics,What is 'Sericulture'?,Fish farming,Fruit farming,Rearing of honey bees,Rearing of silkworms,D
+Agriculture,Agriculture Basics,Which instrument is used to measure humidity?,Barometer,Anemometer,Thermometer,Hygrometer,D
+Agriculture,Agriculture Basics,Green Revolution in India was mainly focused on which crops?,Rice and Wheat,Oilseeds,Sugarcane,Pulses,A
+Agriculture,Agriculture Basics,What is 'Organic Farming'?,Farming without chemicals,Farming in water,Large scale farming,Farming with machines,A
+Banking,Banking Basics,Who is known as the 'Lender of Last Resort' in India?,Finance Ministry,RBI,SBI,World Bank,B
+Banking,Banking Basics,What does KYC stand for?,Key Your Code,Know Your Customer,Keep Your Cash,Know Your Credibility,B
+Banking,Banking Basics,What is 'Inflation'?,Increase in value of money,Decrease in prices,General increase in prices,Steady prices,C
+Banking,Banking Basics,Which of these is a negotiable instrument?,Passport,Cheque,PAN Card,Aadhar Card,B
+Banking,Banking Basics,What does ATM stand for?,Auto Ticket Maker,Automated Teller Machine,Automatic Transaction Machine,Any Time Money,B
+Banking,Banking Basics,What is the primary function of a Commercial Bank?,Accepting deposits and lending money,Setting interest rates,Issuing currency,Collecting taxes,A
+Banking,Banking Basics,What does 'Fixed Deposit' mean?,Money given as a gift,Interest-free account,Money deposited for a fixed period,Money that can't be withdrawn,C
+Banking,Banking Basics,Which bank is the largest public sector bank in India?,BOB,SBI,Canara Bank,PNB,B
+Banking,Banking Basics,What is 'Repo Rate'?,Rate at which banks lend to customers,Rate at which RBI lends to banks,Rate of inflation,Rate of tax,B
+Banking,Banking Basics,What is a 'Demat Account' used for?,Paying bills,Booking tickets,Saving money,Trading shares,D
+Management,Management Basics,Who is considered the 'Father of Scientific Management'?,Peter Drucker,F.W. Taylor,Henry Fayol,Max Weber,B
+Management,Management Basics,What does SWOT analysis stand for?,"Strengths, Weaknesses, Opportunities, Threats",,"Simple, Wide, Open, True","Success, Weakness, Opportunity, Threat",A
+Management,Management Basics,Which function of management involves hiring people?,Staffing,Controlling,Planning,Organizing,A
+Management,Management Basics,What is 'Marketing Mix' commonly known as?,The 3 Rs,The 5 Cs,The 4 Ps,The 6 Ms,C
+Management,Management Basics,What is 'Leadership'?,Being the boss,Influencing others to achieve goals,Managing finances,Ordering people,B
+Management,Management Basics,What is the 'Hierarchy of Needs' theory proposed by?,Herzberg,McGregor,Maslow,Vroom,C
+Management,Management Basics,What is a 'Brand'?,A company name,A expensive product,A type of advertisement,A unique identity of a product,D
+Management,Management Basics,What does HRM stand for?,Human Resource Management,High Rate Management,Home Resource Management,Human Relation Management,A
+Management,Management Basics,What is 'Organizational Culture'?,Shared values and beliefs of a company,The dress code,The location of office,The salary structure,A
+Management,Management Basics,What is the primary goal of Financial Management?,Hiring more people,Minimizing costs,Maximizing wealth of shareholders,Maximizing sales,C
+Civil Engineering,Civil Engineering Basics,What is the main component of concrete?,"Iron, Steel","Brick, Mud","Wood, Sand","Cement, Water, Aggregates",D
+Civil Engineering,Civil Engineering Basics,What does 'TMT' stand for in steel bars?,Triple Metal Treatment,Total Metal Tension,Thermo Mechanical Treatment,Thermal Metal Toughness,C
+Civil Engineering,Civil Engineering Basics,Which instrument is used to measure horizontal and vertical angles?,Theodolite,Compass,Level,Tape,A
+Civil Engineering,Civil Engineering Basics,What is the standard size of a modular brick?,15x15x15 cm,23x11x7 cm,19x9x9 cm,20x10x10 cm,C
+Civil Engineering,Civil Engineering Basics,What is 'Slump Test' used for?,To check weight,To check color,To check workability of concrete,To check strength,C
+Civil Engineering,Civil Engineering Basics,Which type of foundation is used for soft soil?,Isolated footing,Strip footing,Wall footing,Pile foundation,D
+Civil Engineering,Civil Engineering Basics,What is 'Surveying'?,Mixing concrete,Building houses,Determining relative positions on Earth,Painting walls,C
+Civil Engineering,Civil Engineering Basics,What is the full form of CAD in engineering?,Complex Area Design,Computer Added Detail,Common Auto Design,Computer Aided Design,D
+Civil Engineering,Civil Engineering Basics,Which material has the highest compressive strength?,Plastic,Concrete,Wood,Steel,D
+Civil Engineering,Civil Engineering Basics,What is a 'Retaining Wall' used for?,To support the roof,To hold back soil,To decorate the garden,To hold water,B
+Hotel Management,Hotel Management Basics,Which department is responsible for guest check-in?,Housekeeping,Food & Beverage,Maintenance,Front Office,D
+Hotel Management,Hotel Management Basics,What does 'B&B' stand for?,Bread & Butter,Best & Basic,Bed & Breakfast,Bar & Buffet,C
+Hotel Management,Hotel Management Basics,A 'Suite' in a hotel usually means?,A room with a separate living area,A small room,A large bed,A room near the pool,A
+Hotel Management,Hotel Management Basics,What is 'Mise-en-place'?,A type of soup,Cleaning the room,Everything in its place (preparation),Checking out,C
+Hotel Management,Hotel Management Basics,Which of these is a part of the 'Back of the House'?,Dining Hall,Kitchen,Lobby,Reception,B
+Hotel Management,Hotel Management Basics,What is a 'Concierge'?,A security guard,A person who assists guests with local information,A waiter,A chef,B
+Hotel Management,Hotel Management Basics,What does 'Check-out' time refer to?,Lunch time,Time to leave the room,Time to enter the room,Dinner time,B
+Hotel Management,Hotel Management Basics,Which star rating represents the highest level of luxury?,5 Stars,1 Star,3 Stars,,A
+Hotel Management,Hotel Management Basics,What is 'Catering'?,Managing staff,Booking flights,Food and beverage service for events,Cleaning services,C
+Hotel Management,Hotel Management Basics,What is the primary duty of Housekeeping?,Driving,Maintaining cleanliness and order,Accounting,Cooking,B
+Commerce,Commerce Basics,What is the 'Double Entry System'?,Paying twice,Entering data twice,Hiring two accountants,Recording every transaction in two accounts,D
+Commerce,Commerce Basics,What is an 'Asset'?,A resource owned by a business,A liability,A loss,An expense,A
+Commerce,Commerce Basics,What does 'Credit' mean in accounting?,An increase in assets,Borrowing money,A type of card,A decrease in assets or increase in liability,D
+Commerce,Commerce Basics,What is a 'Balance Sheet'?,A record of daily sales,A bank statement,A statement of financial position at a point in time,A list of expenses,C
+Commerce,Commerce Basics,What is 'Revenue'?,Taxes paid,Profit,Cost of goods,Total income from sales,D
+Commerce,Commerce Basics,What does 'Audit' mean?,Buying shares,Independent examination of financial records,Selling products,Hiring staff,B
+Commerce,Commerce Basics,Who is an 'Entrepreneur'?,A manager,A banker,An employee,A person who starts and runs a business,D
+Commerce,Commerce Basics,What is 'Capital'?,Money or assets invested in a business,A type of tax,Total sales,The main city,A
+Commerce,Commerce Basics,What does 'GST' stand for?,Goods and Services Tax,Grand Super Tax,Government Service Tax,General Sales Tax,A
+Commerce,Commerce Basics,What is 'Depreciation'?,Decrease in value of asset over time,Increase in value of asset,Selling an asset,Fixing a machine,A
+Law,Law Basics,What is the 'Constitution'?,A history book,A list of politicians,The supreme law of a country,A book of stories,C
+Law,Law Basics,What is 'Criminal Law'?,Law about business,Law about families,Law related to crimes and punishment,Law about property,C
+Law,Law Basics,What is the 'Judiciary'?,The parliament,The military,The system of courts,The police,C
+Law,Law Basics,What does 'FIR' stand for?,First Incident Record,Final Inspection Report,First Information Report,Fast Investigation Result,C
+Law,Law Basics,What is a 'Plaintiff'?,A person who brings a case to court,A judge,A lawyer,A person who is sued,A
+Law,Law Basics,What is 'Human Rights'?,Rules for driving,Rules for school,Basic rights belonging to every person,Rights for citizens only,C
+Law,Law Basics,What is 'Copyright'?,Right to copy everything,Right to use a computer,Right to buy books,Legal right to original work,D
+Law,Law Basics,What is a 'Contract'?,A legally binding agreement,A friendly talk,A type of tax,A job description,A
+Law,Law Basics,Who is the head of the Indian Judiciary?,Law Minister,President,Chief Justice of India,Prime Minister,C
+Law,Law Basics,What is 'Litigation'?,Writing a will,The process of taking legal action,Paying a fine,A type of crime,B
+UPSC,UPSC Basics,Who was the first President of India?,Dr. Rajendra Prasad,Jawaharlal Nehru,Sardar Patel,B.R. Ambedkar,A
+UPSC,UPSC Basics,Which is the longest river in the world?,Ganga,Nile,Amazon,Mississippi,B
+UPSC,UPSC Basics,What is the 'Preamble' of the Constitution?,A conclusion,An index,A list of laws,An introduction,D
+UPSC,UPSC Basics,In which year did India gain Independence?,1950,1942,1947,1945,C
+UPSC,UPSC Basics,Which planet is known as the 'Red Planet'?,Jupiter,Saturn,Mars,Venus,C
+UPSC,UPSC Basics,Who is known as the 'Father of the Indian Constitution'?,Mahatma Gandhi,Subhash Chandra Bose,Dr. B.R. Ambedkar,Jawaharlal Nehru,C
+UPSC,UPSC Basics,What is the capital of India?,Mumbai,Kolkata,New Delhi,Chennai,C
+UPSC,UPSC Basics,Which fundamental right was removed by the 44th Amendment?,Right to Freedom,Right to Equality,Right to Property,Right to Religion,C
+UPSC,UPSC Basics,What is the tenure of a Rajya Sabha member?,6 years,5 years,4 years,2 years,A
+UPSC,UPSC Basics,Who appoints the Governor of a State?,Chief Minister,President,Chief Justice,Prime Minister,B
+Education,Education Basics,What is 'Pedagogy'?,The method and practice of teaching,Study of Earth,Study of plants,Study of children's health,A
+Education,Education Basics,What is 'Inclusive Education'?,Online education,Private education,Education for all students including those with disabilities,Education for toppers,C
+Education,Education Basics,What does 'IQ' stand for?,Interesting Quote,Intelligence Quotient,Internal Question,Individual Quality,B
+Education,Education Basics,Who is famous for the theory of 'Multiple Intelligences'?,Howard Gardner,Skinner,Vygotsky,Piaget,A
+Education,Education Basics,What is 'Rote Learning'?,Learning by understanding,Learning by doing,Learning by memorization/repetition,Learning by watching,C
+Education,Education Basics,What is the primary goal of primary education?,Passing exams,Basic literacy and numeracy,Becoming an expert,Getting a job,B
+Education,Education Basics,What is 'Distance Learning'?,Learning in a classroom,Learning while traveling,Learning remotely without being physically present,Learning from friends,C
+Education,Education Basics,What does 'Curriculum' mean?,A student's hobby,A teacher's salary,The subjects comprising a course of study,A school building,C
+Education,Education Basics,What is 'Vocational Education'?,Higher education,General education,Religious education,Education that prepares for a specific trade or craft,D
+Education,Education Basics,Who is known as the pioneer of the 'Kindergarten' system?,John Dewey,Montessori,Rousseau,Friedrich Froebel,D
+Design,Design Basics,What are the 'Primary Colors'?,"Black, White, Gray","Red, Green, Blue","Red, Yellow, Blue","Orange, Green, Purple",C
+Design,Design Basics,What does 'Typography' deal with?,Building models,Style and appearance of text,Color combinations,Drawing characters,B
+Design,Design Basics,"In design, what is 'White Space'?",Empty space between elements,A white colored background,A type of paper,Space for text,A
+Design,Design Basics,What is 'UI Design'?,Universal Image Design,Unique Identity Design,User Interface Design,User Interaction Design,C
+Design,Design Basics,What is 'UX Design'?,,User X-factor Design,User Experience Design,Universal X-link Design,C
+Design,Design Basics,What does 'RGB' stand for?,"Real, Great, Bold","Red, Green, Black","Red, Gray, Blue","Red, Green, Blue",D
+Design,Design Basics,What is a 'Logo'?,A color palette,A type of font,A symbol or design identifying an organization,A company's product,C
+Design,Design Basics,What is 'Minimalism' in design?,Designing small things,Fast designing,Using many colors,Using only essential elements,D
+Design,Design Basics,Which tool is most commonly used for vector graphics?,PowerPoint,Photoshop,Illustrator,Excel,C
+Design,Design Basics,What is 'Contrast' in design?,The difference between two elements to create emphasis,Using only text,Making everything small,Using the same colors,A
+Media,Media Basics,What is 'Journalism'?,Writing stories,Making movies,Selling books,Collecting and reporting news and information,D
+Media,Media Basics,What does 'PR' stand for?,Public Records,Personal Record,Public Relations,Press Release,C
+Media,Media Basics,What is a 'Lead' in a news story?,The end of the story,A type of camera,The person in charge,The opening paragraph that summarizes the story,D
+Media,Media Basics,What is 'Social Media'?,Television news,A meeting place,Websites and apps for communication and sharing,Newspapers,C
+Media,Media Basics,What is 'Breaking News'?,Fake news,Sports news,Old news,News that is currently happening,D
+Media,Media Basics,What is the main role of an 'Editor'?,Printing papers,Writing ads,Taking photos,Reviewing and correcting content,D
+Media,Media Basics,What is 'Mass Communication'?,Relaying information to a large audience,Studying math,Using a phone,Talking to a friend,A
+Media,Media Basics,What is an 'Interview'?,A type of movie,A formal conversation to get information,A school exam,A political speech,B
+Media,Media Basics,What does 'Anchor' mean in news?,A reporter,A heavy weight,A person who presents a news program,A cameraman,C
+Media,Media Basics,What is 'Fake News'?,False information presented as news,International news,News about celebrities,Boring news,A
+Environmental Science,Environmental Science Basics,What is 'Global Warming'?,Pollution in rivers,A type of weather,Increase in Earth's average temperature,Earth getting colder,C
+Environmental Science,Environmental Science Basics,What does 'Ecosystem' mean?,Interaction of living and non-living things,A single animal,A type of plant,The weather forecast,A
+Environmental Science,Environmental Science Basics,Which gas is primarily responsible for the Greenhouse Effect?,Hydrogen,Oxygen,Carbon Dioxide,Nitrogen,C
+Environmental Science,Environmental Science Basics,What is 'Deforestation'?,Cleaning oceans,Planting more trees,Clearing of forests,Protecting animals,C
+Environmental Science,Environmental Science Basics,What does the '3 Rs' stand for?,"Reduce, Reuse, Recycle","Red, Round, Rare","Read, Rise, Run","Rest, Relax, Reset",A
+Environmental Science,Environmental Science Basics,What is 'Biodiversity'?,Variety of life on Earth,Studying space,A type of soil,Cleaning the air,A
+Environmental Science,Environmental Science Basics,Which layer of atmosphere protects us from UV rays?,Ozone Layer,Exosphere,Mesosphere,Troposphere,A
+Environmental Science,Environmental Science Basics,What is 'Pollution'?,Introduction of harmful substances into the environment,Natural air,Planting trees,Pure water,A
+Environmental Science,Environmental Science Basics,What is 'Renewable Energy'?,Energy from sources that replenish naturally,Energy that runs out,Energy from coal,Expensive energy,A
+Environmental Science,Environmental Science Basics,What is 'Sustainable Development'?,Fast growth,Using all resources,Building only factories,Growth that meets present needs without compromising future,D
+Robotics,Robotics Basics,What is a 'Robot'?,A toy,A human with a chip,A smart computer,A machine capable of carrying out complex actions automatically,D
+Robotics,Robotics Basics,What is an 'Actuator' in robotics?,A sensor,A component that moves or controls a mechanism,A battery,A camera,B
+Robotics,Robotics Basics,What does 'AI' stand for?,Artificial Intelligence,Auto Information,Applied Industry,Active Intelligence,A
+Robotics,Robotics Basics,What is a 'Sensor' used for?,To move the robot,To store data,To perceive the environment,To charge the battery,C
+Robotics,Robotics Basics,"Which field combines mechanics, electronics, and computing?",Medicine,Mechatronics,Agriculture,Civil Engineering,B
+Robotics,Robotics Basics,What is 'Automation'?,Fixing cars,Designing buildings,Doing things manually,The use of technology to perform tasks with reduced human help,D
+Robotics,Robotics Basics,Which programming language is commonly used in robotics?,HTML,SQL,C++,CSS,C
+Robotics,Robotics Basics,What is a 'Humanoid Robot'?,A robot that looks like a dog,A round robot,A flying robot,A robot that looks like a human,D
+Robotics,Robotics Basics,What is the 'Brain' of a robot?,The battery,The motor,The sensor,The controller/microprocessor,D
+Robotics,Robotics Basics,What is 'Kinematics' in robotics?,Building shells,The study of motion without considering forces,Marketing robots,Studying colors,B

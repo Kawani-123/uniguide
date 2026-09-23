@@ -1,0 +1,501 @@
+Branch,Subject,Detailed_Note,Educational_Resource_Link
+Computer Science,Python,"Python is a versatile, high-level programming language known for its readability. Key topics include Data Structures, Decorators, Generators, and frameworks like Django.",https://www.w3schools.com/python/
+Computer Science,Java,"Java is a robust, object-oriented language used for enterprise applications. Essential concepts: JVM, Multi-threading, Spring Boot, and Hibernate.",https://www.javatpoint.com/java-tutorial
+Computer Science,AI & ML,"Artificial Intelligence and Machine Learning involve algorithms that learn from data. Key topics: Neural Networks, Linear Regression, and NLP.",https://www.geeksforgeeks.org/machine-learning/
+Computer Science,C++,"C++ is a powerful language for system/software development. Focus on STL, Memory Management, Pointers, and OOPs principles.",https://.learncpp.com/
+Computer Science,Web Development,"Covers Frontend (HTML, CSS, JS) and Backend (Node.js, Databases). Focus on React, Angular, and RESTful APIs.",https://developer.mozilla.org/en-US/docs/Learn
+Information Technology,Cloud Computing,"Delivery of computing services over the internet. Study AWS, Azure, and Google Cloud models (IaaS, PaaS, SaaS).",https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/
+Information Technology,Cyber Security,"Protecting systems from digital attacks. Key areas: Ethical Hacking, Cryptography, and Network Security.",https://www.cybrary.it/
+Information Technology,Web Development,"Building and maintaining websites. Includes web design, web publishing, and database management.",https://www.freecodecamp.org/
+Information Technology,Database Management,"Systems used to store and manage data. SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) are core topics.",https://www.tutorialspoint.com/dbms/index.htm
+Information Technology,Software Engineering,"Systematic application of engineering principles to software development. Study Agile, Scrum, and SDLC.",https://www.guru99.com/software-engineering-tutorial.html
+Medical,Anatomy,Study of the structure of organisms and their parts.,https://www.innerbody.com/htm/body.html
+Medical,Physiology,Study of the functions and mechanisms in a living system.,https://medlineplus.gov/anatomyandphysiology.html
+Medical,Pathology,Science of the causes and effects of diseases.,https://www.pathologyoutlines.com/
+Medical,Pharmacology,Study of drug action and the interactions between organisms and drugs.,https://www.pharmacologyeducation.org/
+Medical,Microbiology,"Study of microscopic organisms, such as bacteria, viruses, and fungi.",https://microbiologysociety.org/why-microbiology-matters/what-is-microbiology.html
+Pharmacy,Pharmaceutics,Deals with the process of turning a new chemical entity into a medication.,https://www.pharmacytimes.com/
+Pharmacy,Pharmacognosy,Study of medicines derived from natural sources.,https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/pharmacognosy
+Pharmacy,Medicinal Chemistry,Chemistry-based discipline involving the design and synthesis of drugs.,https://pubs.acs.org/journal/jmcmar
+Pharmacy,Biochemistry,Chemical processes within and relating to living organisms.,https://www.biochemistry.org/
+Pharmacy,Clinical Pharmacy,Branch where pharmacists provide patient care that optimizes medication use.,https://www.accp.com/
+Agriculture,Agronomy,Science of soil management and crop production.,https://www.agronomy.org/
+Agriculture,Soil Science,Study of soil as a natural resource on the surface of the Earth.,https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/edu/
+Agriculture,Horticulture,Art of garden cultivation and management.,https://www.ashs.org/
+Agriculture,Plant Pathology,Scientific study of diseases in plants.,https://www.apsnet.org/
+Agriculture,Agri-Economics,Applied field of economics concerned with the application of economic theory in optimizing the production.,https://www.ers.usda.gov/
+Banking,Finance,"Management of money and includes activities such as investing, borrowing, and lending.",https://www.investopedia.com/
+Banking,Banking Laws,Legal regulations governing the operations of banks.,https://www.rbi.org.in/scripts/BS_ViewLegalContent.aspx
+Banking,Investment Banking,Helping individuals or organisations raise capital and providing financial consultancy.,https://corporatefinanceinstitute.com/resources/knowledge/strategy/investment-banking-overview/
+Banking,Risk Management,"Identification, evaluation, and prioritization of risks.",https://www.rmia.org.au/
+Banking,Retail Banking,Banking in which transactions are held directly with consumers.,https://www.bankrate.com/glossary/r/retail-banking/
+Management,Business Analytics,"Skills, technologies, and practices for continuous iterative exploration of past business performance.",https://www.hbs.edu/business-analytics/
+Management,Human Resources,"Department of a business that finds, screens, and recruits job applicants.",https://www.shrm.org/
+Management,Marketing Management,Organizational discipline which focuses on the practical application of marketing orientation.,https://www.ama.org/
+Management,Operations Management,Administration of business practices to create the highest level of efficiency possible.,https://www.apics.org/
+Management,Financial Management,"Strategic planning, organising, directing, and controlling of financial undertakings.",https://www.managementstudyguide.com/financial-management.htm
+Civil Engineering,Structural Analysis,Determination of the effects of loads on physical structures.,https://skyciv.com/structural-analysis-software/what-is-structural-analysis/
+Civil Engineering,Geotechnical Engineering,Branch concerned with the engineering behavior of earth materials.,https://www.geoinstitute.org/
+Civil Engineering,Surveying,Technique of determining the terrestrial or three-dimensional positions of points.,https://www.fig.net/
+Civil Engineering,Hydrology,"Study of the movement, distribution, and management of water.",https://www.usgs.gov/special-topic/water-science-school/science/what-hydrology
+Civil Engineering,Construction Management,"Professional service that uses specialized techniques to oversee the planning, design, and construction.",https://www.cmma.org/
+Hotel Management,Front Office Operations,Directly contact the customers and is the first place where customers reach.,https://www.hospitality-school.com/front-office-training/
+Hotel Management,Food Production,Process of transforming raw ingredients into prepared food products.,https://www.culinaryschools.org/
+Hotel Management,Housekeeping,Management of duties and chores involved in the running of a household or lodging.,https://www.hftp.org/
+Hotel Management,F&B Service,"Process of preparing, presenting and serving of food and beverages to the customers.",https://www.hospitality-school.com/food-beverage-service/
+Hotel Management,Hospitality Marketing,Marketing techniques used in the hospitality industry.,https://www.revfine.com/hospitality-marketing/
+Commerce,Accounting,Process of recording financial transactions pertaining to a business.,https://www.accountingcoach.com/
+Commerce,Business Laws,Rules that govern the dealings between people or commercial matters.,https://www.mca.gov.in/
+Commerce,Economics,"Social science that studies the production, distribution, and consumption of goods and services.",https://www.khanacademy.org/economics-finance-domain
+Commerce,Taxation,Financial charge or other levy imposed upon a taxpayer by a state.,https://www.incometaxindia.gov.in/
+Commerce,Audit,Independent examination of financial information of any entity.,https://www.icai.org/
+Law,Constitutional Law,"Body of law which defines the role, powers, and structure of different entities within a state.",https://www.constitutionofindia.net/
+Law,Criminal Law,Body of law that relates to crime.,https://www.livelaw.in/
+Law,Civil Procedure,Body of law that sets out the rules and standards that courts follow when adjudicating civil lawsuits.,https://www.barandbench.com/
+Law,Corporate Law,"Body of law governing the rights, relations, and conduct of persons, companies, organizations and businesses.",https://www.mca.gov.in/
+Law,Jurisprudence,Theoretical study of law.,https://plato.stanford.edu/entries/law-phil-theory/
+UPSC,Indian Polity,"Study of the Constitution, Government, and politics in India.",https://www.insightsonindia.com/indian-polity/
+UPSC,Modern History,History of India from the mid-18th century to the present.,https://www.drishtiias.com/summary-of-modern-indian-history
+UPSC,Geography,Study of places and the relationships between people and their environments.,https://www.pmfias.com/geography/
+UPSC,Ethics,Study of what is right and wrong in human conduct.,https://www.clearias.com/ethics-integrity-aptitude-study-plan/
+UPSC,International Relations,Study of the interactions of states and other entities in the international system.,https://www.orfonline.org/
+Education,Teaching Aptitude,Capability or ability of a teacher to teach.,https://www.ugcnetonline.in/
+Education,Educational Psychology,"Study of how people learn, including teaching methods and instructional processes.",https://www.apa.org/ed/
+Education,Curriculum Design,Creating a blueprint for learning.,https://www.ascd.org/
+Education,School Management,Running of a school by its governing body.,https://www.ed.gov/
+Education,Inclusive Education,"Education that includes everyone, with non-disabled and disabled people learning together.",https://www.unesco.org/en/education/inclusion
+Design,UI/UX,Design of user interfaces for machines and software.,https://www.nngroup.com/
+Design,Graphic Design,"Process of visual communication and problem-solving through the use of typography, photography, and illustration.",https://www.behance.net/
+Design,Interior Design,Art and science of enhancing the interior of a building.,https://www.asid.org/
+Design,Fashion Design,"Art of applying design, aesthetics, clothing construction and natural beauty to clothing.",https://www.vogue.com/fashion
+Design,Industrial Design,Process of design applied to products that are to be manufactured through techniques of mass production.,https://www.idsa.org/
+Media,Journalism,Production and distribution of reports on current events based on facts.,https://www.poynter.org/
+Media,Mass Communication,Exchanging of information on a large scale to a wide range of people.,https://www.journalism.org/
+Media,Public Relations,Practice of managing the spread of information between an individual or an organization.,https://www.prsa.org/
+Media,Digital Marketing,Marketing of products or services using digital technologies.,https://www.hubspot.com/digital-marketing
+Media,Broadcasting,Distribution of audio or video content to a dispersed audience via any electronic mass communications medium.,https://www.nab.org/
+Environmental Science,Ecology,Study of the relationships between living organisms and their physical environment.,https://www.esa.org/
+Environmental Science,Pollution Control,Management of waste to reduce its impact on the environment.,https://www.epa.gov/
+Environmental Science,Environmental Laws,Collective term encompassing aspects of the law that provide protection to the environment.,https://www.unep.org/
+Environmental Science,Sustainability,Ability to be maintained at a certain rate or level.,https://www.sdgfund.org/
+Environmental Science,Climate Change,Significant change in the average weather of a region over a long period of time.,https://climate.nasa.gov/
+Robotics,Control Systems,"Devices that manage, command, direct or regulate the behavior of other devices or systems.",https://www.controleng.com/
+Robotics,Embedded Systems,Controller with a dedicated function within a larger mechanical or electrical system.,https://www.embedded.com/
+Robotics,Mechatronics,"Multidisciplinary field of science that includes a combination of mechanical engineering, electronics, and computer engineering.",https://www.mechatronics.org/
+Robotics,Kinematics,"Branch of mechanics which describes the motion of points, bodies and systems of bodies.",https://www.robotics.org/
+Robotics,Artificial Intelligence,Simulation of human intelligence processes by machines.,https://openai.com/
+Computer Science,Python,"Python is a versatile, high-level programming language known for its readability. Key topics include Data Structures, Decorators, Generators, and frameworks like Django.",https://www.w3schools.com/python/
+Computer Science,Java,"Java is a robust, object-oriented language used for enterprise applications. Essential concepts: JVM, Multi-threading, Spring Boot, and Hibernate.",https://www.javatpoint.com/java-tutorial
+Computer Science,AI & ML,"Artificial Intelligence and Machine Learning involve algorithms that learn from data. Key topics: Neural Networks, Linear Regression, and NLP.",https://www.geeksforgeeks.org/machine-learning/
+Computer Science,C++,"C++ is a powerful language for system/software development. Focus on STL, Memory Management, Pointers, and OOPs principles.",https://.learncpp.com/
+Computer Science,Web Development,"Covers Frontend (HTML, CSS, JS) and Backend (Node.js, Databases). Focus on React, Angular, and RESTful APIs.",https://developer.mozilla.org/en-US/docs/Learn
+Information Technology,Cloud Computing,"Delivery of computing services over the internet. Study AWS, Azure, and Google Cloud models (IaaS, PaaS, SaaS).",https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/
+Information Technology,Cyber Security,"Protecting systems from digital attacks. Key areas: Ethical Hacking, Cryptography, and Network Security.",https://www.cybrary.it/
+Information Technology,Web Development,"Building and maintaining websites. Includes web design, web publishing, and database management.",https://www.freecodecamp.org/
+Information Technology,Database Management,"Systems used to store and manage data. SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) are core topics.",https://www.tutorialspoint.com/dbms/index.htm
+Information Technology,Software Engineering,"Systematic application of engineering principles to software development. Study Agile, Scrum, and SDLC.",https://www.guru99.com/software-engineering-tutorial.html
+Medical,Anatomy,Study of the structure of organisms and their parts.,https://www.innerbody.com/htm/body.html
+Medical,Physiology,Study of the functions and mechanisms in a living system.,https://medlineplus.gov/anatomyandphysiology.html
+Medical,Pathology,Science of the causes and effects of diseases.,https://www.pathologyoutlines.com/
+Medical,Pharmacology,Study of drug action and the interactions between organisms and drugs.,https://www.pharmacologyeducation.org/
+Medical,Microbiology,"Study of microscopic organisms, such as bacteria, viruses, and fungi.",https://microbiologysociety.org/why-microbiology-matters/what-is-microbiology.html
+Pharmacy,Pharmaceutics,Deals with the process of turning a new chemical entity into a medication.,https://www.pharmacytimes.com/
+Pharmacy,Pharmacognosy,Study of medicines derived from natural sources.,https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/pharmacognosy
+Pharmacy,Medicinal Chemistry,Chemistry-based discipline involving the design and synthesis of drugs.,https://pubs.acs.org/journal/jmcmar
+Pharmacy,Biochemistry,Chemical processes within and relating to living organisms.,https://www.biochemistry.org/
+Pharmacy,Clinical Pharmacy,Branch where pharmacists provide patient care that optimizes medication use.,https://www.accp.com/
+Agriculture,Agronomy,Science of soil management and crop production.,https://www.agronomy.org/
+Agriculture,Soil Science,Study of soil as a natural resource on the surface of the Earth.,https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/edu/
+Agriculture,Horticulture,Art of garden cultivation and management.,https://www.ashs.org/
+Agriculture,Plant Pathology,Scientific study of diseases in plants.,https://www.apsnet.org/
+Agriculture,Agri-Economics,Applied field of economics concerned with the application of economic theory in optimizing the production.,https://www.ers.usda.gov/
+Banking,Finance,"Management of money and includes activities such as investing, borrowing, and lending.",https://www.investopedia.com/
+Banking,Banking Laws,Legal regulations governing the operations of banks.,https://www.rbi.org.in/scripts/BS_ViewLegalContent.aspx
+Banking,Investment Banking,Helping individuals or organisations raise capital and providing financial consultancy.,https://corporatefinanceinstitute.com/resources/knowledge/strategy/investment-banking-overview/
+Banking,Risk Management,"Identification, evaluation, and prioritization of risks.",https://www.rmia.org.au/
+Banking,Retail Banking,Banking in which transactions are held directly with consumers.,https://www.bankrate.com/glossary/r/retail-banking/
+Management,Business Analytics,"Skills, technologies, and practices for continuous iterative exploration of past business performance.",https://www.hbs.edu/business-analytics/
+Management,Human Resources,"Department of a business that finds, screens, and recruits job applicants.",https://www.shrm.org/
+Management,Marketing Management,Organizational discipline which focuses on the practical application of marketing orientation.,https://www.ama.org/
+Management,Operations Management,Administration of business practices to create the highest level of efficiency possible.,https://www.apics.org/
+Management,Financial Management,"Strategic planning, organising, directing, and controlling of financial undertakings.",https://www.managementstudyguide.com/financial-management.htm
+Civil Engineering,Structural Analysis,Determination of the effects of loads on physical structures.,https://skyciv.com/structural-analysis-software/what-is-structural-analysis/
+Civil Engineering,Geotechnical Engineering,Branch concerned with the engineering behavior of earth materials.,https://www.geoinstitute.org/
+Civil Engineering,Surveying,Technique of determining the terrestrial or three-dimensional positions of points.,https://www.fig.net/
+Civil Engineering,Hydrology,"Study of the movement, distribution, and management of water.",https://www.usgs.gov/special-topic/water-science-school/science/what-hydrology
+Civil Engineering,Construction Management,"Professional service that uses specialized techniques to oversee the planning, design, and construction.",https://www.cmma.org/
+Hotel Management,Front Office Operations,Directly contact the customers and is the first place where customers reach.,https://www.hospitality-school.com/front-office-training/
+Hotel Management,Food Production,Process of transforming raw ingredients into prepared food products.,https://www.culinaryschools.org/
+Hotel Management,Housekeeping,Management of duties and chores involved in the running of a household or lodging.,https://www.hftp.org/
+Hotel Management,F&B Service,"Process of preparing, presenting and serving of food and beverages to the customers.",https://www.hospitality-school.com/food-beverage-service/
+Hotel Management,Hospitality Marketing,Marketing techniques used in the hospitality industry.,https://www.revfine.com/hospitality-marketing/
+Commerce,Accounting,Process of recording financial transactions pertaining to a business.,https://www.accountingcoach.com/
+Commerce,Business Laws,Rules that govern the dealings between people or commercial matters.,https://www.mca.gov.in/
+Commerce,Economics,"Social science that studies the production, distribution, and consumption of goods and services.",https://www.khanacademy.org/economics-finance-domain
+Commerce,Taxation,Financial charge or other levy imposed upon a taxpayer by a state.,https://www.incometaxindia.gov.in/
+Commerce,Audit,Independent examination of financial information of any entity.,https://www.icai.org/
+Law,Constitutional Law,"Body of law which defines the role, powers, and structure of different entities within a state.",https://www.constitutionofindia.net/
+Law,Criminal Law,Body of law that relates to crime.,https://www.livelaw.in/
+Law,Civil Procedure,Body of law that sets out the rules and standards that courts follow when adjudicating civil lawsuits.,https://www.barandbench.com/
+Law,Corporate Law,"Body of law governing the rights, relations, and conduct of persons, companies, organizations and businesses.",https://www.mca.gov.in/
+Law,Jurisprudence,Theoretical study of law.,https://plato.stanford.edu/entries/law-phil-theory/
+UPSC,Indian Polity,"Study of the Constitution, Government, and politics in India.",https://www.insightsonindia.com/indian-polity/
+UPSC,Modern History,History of India from the mid-18th century to the present.,https://www.drishtiias.com/summary-of-modern-indian-history
+UPSC,Geography,Study of places and the relationships between people and their environments.,https://www.pmfias.com/geography/
+UPSC,Ethics,Study of what is right and wrong in human conduct.,https://www.clearias.com/ethics-integrity-aptitude-study-plan/
+UPSC,International Relations,Study of the interactions of states and other entities in the international system.,https://www.orfonline.org/
+Education,Teaching Aptitude,Capability or ability of a teacher to teach.,https://www.ugcnetonline.in/
+Education,Educational Psychology,"Study of how people learn, including teaching methods and instructional processes.",https://www.apa.org/ed/
+Education,Curriculum Design,Creating a blueprint for learning.,https://www.ascd.org/
+Education,School Management,Running of a school by its governing body.,https://www.ed.gov/
+Education,Inclusive Education,"Education that includes everyone, with non-disabled and disabled people learning together.",https://www.unesco.org/en/education/inclusion
+Design,UI/UX,Design of user interfaces for machines and software.,https://www.nngroup.com/
+Design,Graphic Design,"Process of visual communication and problem-solving through the use of typography, photography, and illustration.",https://www.behance.net/
+Design,Interior Design,Art and science of enhancing the interior of a building.,https://www.asid.org/
+Design,Fashion Design,"Art of applying design, aesthetics, clothing construction and natural beauty to clothing.",https://www.vogue.com/fashion
+Design,Industrial Design,Process of design applied to products that are to be manufactured through techniques of mass production.,https://www.idsa.org/
+Media,Journalism,Production and distribution of reports on current events based on facts.,https://www.poynter.org/
+Media,Mass Communication,Exchanging of information on a large scale to a wide range of people.,https://www.journalism.org/
+Media,Public Relations,Practice of managing the spread of information between an individual or an organization.,https://www.prsa.org/
+Media,Digital Marketing,Marketing of products or services using digital technologies.,https://www.hubspot.com/digital-marketing
+Media,Broadcasting,Distribution of audio or video content to a dispersed audience via any electronic mass communications medium.,https://www.nab.org/
+Environmental Science,Ecology,Study of the relationships between living organisms and their physical environment.,https://www.esa.org/
+Environmental Science,Pollution Control,Management of waste to reduce its impact on the environment.,https://www.epa.gov/
+Environmental Science,Environmental Laws,Collective term encompassing aspects of the law that provide protection to the environment.,https://www.unep.org/
+Environmental Science,Sustainability,Ability to be maintained at a certain rate or level.,https://www.sdgfund.org/
+Environmental Science,Climate Change,Significant change in the average weather of a region over a long period of time.,https://climate.nasa.gov/
+Robotics,Control Systems,"Devices that manage, command, direct or regulate the behavior of other devices or systems.",https://www.controleng.com/
+Robotics,Embedded Systems,Controller with a dedicated function within a larger mechanical or electrical system.,https://www.embedded.com/
+Robotics,Mechatronics,"Multidisciplinary field of science that includes a combination of mechanical engineering, electronics, and computer engineering.",https://www.mechatronics.org/
+Robotics,Kinematics,"Branch of mechanics which describes the motion of points, bodies and systems of bodies.",https://www.robotics.org/
+Robotics,Artificial Intelligence,Simulation of human intelligence processes by machines.,https://openai.com/
+Computer Science,Python,"Python is a versatile, high-level programming language known for its readability. Key topics include Data Structures, Decorators, Generators, and frameworks like Django.",https://www.w3schools.com/python/
+Computer Science,Java,"Java is a robust, object-oriented language used for enterprise applications. Essential concepts: JVM, Multi-threading, Spring Boot, and Hibernate.",https://www.javatpoint.com/java-tutorial
+Computer Science,AI & ML,"Artificial Intelligence and Machine Learning involve algorithms that learn from data. Key topics: Neural Networks, Linear Regression, and NLP.",https://www.geeksforgeeks.org/machine-learning/
+Computer Science,C++,"C++ is a powerful language for system/software development. Focus on STL, Memory Management, Pointers, and OOPs principles.",https://.learncpp.com/
+Computer Science,Web Development,"Covers Frontend (HTML, CSS, JS) and Backend (Node.js, Databases). Focus on React, Angular, and RESTful APIs.",https://developer.mozilla.org/en-US/docs/Learn
+Information Technology,Cloud Computing,"Delivery of computing services over the internet. Study AWS, Azure, and Google Cloud models (IaaS, PaaS, SaaS).",https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/
+Information Technology,Cyber Security,"Protecting systems from digital attacks. Key areas: Ethical Hacking, Cryptography, and Network Security.",https://www.cybrary.it/
+Information Technology,Web Development,"Building and maintaining websites. Includes web design, web publishing, and database management.",https://www.freecodecamp.org/
+Information Technology,Database Management,"Systems used to store and manage data. SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) are core topics.",https://www.tutorialspoint.com/dbms/index.htm
+Information Technology,Software Engineering,"Systematic application of engineering principles to software development. Study Agile, Scrum, and SDLC.",https://www.guru99.com/software-engineering-tutorial.html
+Medical,Anatomy,Study of the structure of organisms and their parts.,https://www.innerbody.com/htm/body.html
+Medical,Physiology,Study of the functions and mechanisms in a living system.,https://medlineplus.gov/anatomyandphysiology.html
+Medical,Pathology,Science of the causes and effects of diseases.,https://www.pathologyoutlines.com/
+Medical,Pharmacology,Study of drug action and the interactions between organisms and drugs.,https://www.pharmacologyeducation.org/
+Medical,Microbiology,"Study of microscopic organisms, such as bacteria, viruses, and fungi.",https://microbiologysociety.org/why-microbiology-matters/what-is-microbiology.html
+Pharmacy,Pharmaceutics,Deals with the process of turning a new chemical entity into a medication.,https://www.pharmacytimes.com/
+Pharmacy,Pharmacognosy,Study of medicines derived from natural sources.,https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/pharmacognosy
+Pharmacy,Medicinal Chemistry,Chemistry-based discipline involving the design and synthesis of drugs.,https://pubs.acs.org/journal/jmcmar
+Pharmacy,Biochemistry,Chemical processes within and relating to living organisms.,https://www.biochemistry.org/
+Pharmacy,Clinical Pharmacy,Branch where pharmacists provide patient care that optimizes medication use.,https://www.accp.com/
+Agriculture,Agronomy,Science of soil management and crop production.,https://www.agronomy.org/
+Agriculture,Soil Science,Study of soil as a natural resource on the surface of the Earth.,https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/edu/
+Agriculture,Horticulture,Art of garden cultivation and management.,https://www.ashs.org/
+Agriculture,Plant Pathology,Scientific study of diseases in plants.,https://www.apsnet.org/
+Agriculture,Agri-Economics,Applied field of economics concerned with the application of economic theory in optimizing the production.,https://www.ers.usda.gov/
+Banking,Finance,"Management of money and includes activities such as investing, borrowing, and lending.",https://www.investopedia.com/
+Banking,Banking Laws,Legal regulations governing the operations of banks.,https://www.rbi.org.in/scripts/BS_ViewLegalContent.aspx
+Banking,Investment Banking,Helping individuals or organisations raise capital and providing financial consultancy.,https://corporatefinanceinstitute.com/resources/knowledge/strategy/investment-banking-overview/
+Banking,Risk Management,"Identification, evaluation, and prioritization of risks.",https://www.rmia.org.au/
+Banking,Retail Banking,Banking in which transactions are held directly with consumers.,https://www.bankrate.com/glossary/r/retail-banking/
+Management,Business Analytics,"Skills, technologies, and practices for continuous iterative exploration of past business performance.",https://www.hbs.edu/business-analytics/
+Management,Human Resources,"Department of a business that finds, screens, and recruits job applicants.",https://www.shrm.org/
+Management,Marketing Management,Organizational discipline which focuses on the practical application of marketing orientation.,https://www.ama.org/
+Management,Operations Management,Administration of business practices to create the highest level of efficiency possible.,https://www.apics.org/
+Management,Financial Management,"Strategic planning, organising, directing, and controlling of financial undertakings.",https://www.managementstudyguide.com/financial-management.htm
+Civil Engineering,Structural Analysis,Determination of the effects of loads on physical structures.,https://skyciv.com/structural-analysis-software/what-is-structural-analysis/
+Civil Engineering,Geotechnical Engineering,Branch concerned with the engineering behavior of earth materials.,https://www.geoinstitute.org/
+Civil Engineering,Surveying,Technique of determining the terrestrial or three-dimensional positions of points.,https://www.fig.net/
+Civil Engineering,Hydrology,"Study of the movement, distribution, and management of water.",https://www.usgs.gov/special-topic/water-science-school/science/what-hydrology
+Civil Engineering,Construction Management,"Professional service that uses specialized techniques to oversee the planning, design, and construction.",https://www.cmma.org/
+Hotel Management,Front Office Operations,Directly contact the customers and is the first place where customers reach.,https://www.hospitality-school.com/front-office-training/
+Hotel Management,Food Production,Process of transforming raw ingredients into prepared food products.,https://www.culinaryschools.org/
+Hotel Management,Housekeeping,Management of duties and chores involved in the running of a household or lodging.,https://www.hftp.org/
+Hotel Management,F&B Service,"Process of preparing, presenting and serving of food and beverages to the customers.",https://www.hospitality-school.com/food-beverage-service/
+Hotel Management,Hospitality Marketing,Marketing techniques used in the hospitality industry.,https://www.revfine.com/hospitality-marketing/
+Commerce,Accounting,Process of recording financial transactions pertaining to a business.,https://www.accountingcoach.com/
+Commerce,Business Laws,Rules that govern the dealings between people or commercial matters.,https://www.mca.gov.in/
+Commerce,Economics,"Social science that studies the production, distribution, and consumption of goods and services.",https://www.khanacademy.org/economics-finance-domain
+Commerce,Taxation,Financial charge or other levy imposed upon a taxpayer by a state.,https://www.incometaxindia.gov.in/
+Commerce,Audit,Independent examination of financial information of any entity.,https://www.icai.org/
+Law,Constitutional Law,"Body of law which defines the role, powers, and structure of different entities within a state.",https://www.constitutionofindia.net/
+Law,Criminal Law,Body of law that relates to crime.,https://www.livelaw.in/
+Law,Civil Procedure,Body of law that sets out the rules and standards that courts follow when adjudicating civil lawsuits.,https://www.barandbench.com/
+Law,Corporate Law,"Body of law governing the rights, relations, and conduct of persons, companies, organizations and businesses.",https://www.mca.gov.in/
+Law,Jurisprudence,Theoretical study of law.,https://plato.stanford.edu/entries/law-phil-theory/
+UPSC,Indian Polity,"Study of the Constitution, Government, and politics in India.",https://www.insightsonindia.com/indian-polity/
+UPSC,Modern History,History of India from the mid-18th century to the present.,https://www.drishtiias.com/summary-of-modern-indian-history
+UPSC,Geography,Study of places and the relationships between people and their environments.,https://www.pmfias.com/geography/
+UPSC,Ethics,Study of what is right and wrong in human conduct.,https://www.clearias.com/ethics-integrity-aptitude-study-plan/
+UPSC,International Relations,Study of the interactions of states and other entities in the international system.,https://www.orfonline.org/
+Education,Teaching Aptitude,Capability or ability of a teacher to teach.,https://www.ugcnetonline.in/
+Education,Educational Psychology,"Study of how people learn, including teaching methods and instructional processes.",https://www.apa.org/ed/
+Education,Curriculum Design,Creating a blueprint for learning.,https://www.ascd.org/
+Education,School Management,Running of a school by its governing body.,https://www.ed.gov/
+Education,Inclusive Education,"Education that includes everyone, with non-disabled and disabled people learning together.",https://www.unesco.org/en/education/inclusion
+Design,UI/UX,Design of user interfaces for machines and software.,https://www.nngroup.com/
+Design,Graphic Design,"Process of visual communication and problem-solving through the use of typography, photography, and illustration.",https://www.behance.net/
+Design,Interior Design,Art and science of enhancing the interior of a building.,https://www.asid.org/
+Design,Fashion Design,"Art of applying design, aesthetics, clothing construction and natural beauty to clothing.",https://www.vogue.com/fashion
+Design,Industrial Design,Process of design applied to products that are to be manufactured through techniques of mass production.,https://www.idsa.org/
+Media,Journalism,Production and distribution of reports on current events based on facts.,https://www.poynter.org/
+Media,Mass Communication,Exchanging of information on a large scale to a wide range of people.,https://www.journalism.org/
+Media,Public Relations,Practice of managing the spread of information between an individual or an organization.,https://www.prsa.org/
+Media,Digital Marketing,Marketing of products or services using digital technologies.,https://www.hubspot.com/digital-marketing
+Media,Broadcasting,Distribution of audio or video content to a dispersed audience via any electronic mass communications medium.,https://www.nab.org/
+Environmental Science,Ecology,Study of the relationships between living organisms and their physical environment.,https://www.esa.org/
+Environmental Science,Pollution Control,Management of waste to reduce its impact on the environment.,https://www.epa.gov/
+Environmental Science,Environmental Laws,Collective term encompassing aspects of the law that provide protection to the environment.,https://www.unep.org/
+Environmental Science,Sustainability,Ability to be maintained at a certain rate or level.,https://www.sdgfund.org/
+Environmental Science,Climate Change,Significant change in the average weather of a region over a long period of time.,https://climate.nasa.gov/
+Robotics,Control Systems,"Devices that manage, command, direct or regulate the behavior of other devices or systems.",https://www.controleng.com/
+Robotics,Embedded Systems,Controller with a dedicated function within a larger mechanical or electrical system.,https://www.embedded.com/
+Robotics,Mechatronics,"Multidisciplinary field of science that includes a combination of mechanical engineering, electronics, and computer engineering.",https://www.mechatronics.org/
+Robotics,Kinematics,"Branch of mechanics which describes the motion of points, bodies and systems of bodies.",https://www.robotics.org/
+Robotics,Artificial Intelligence,Simulation of human intelligence processes by machines.,https://openai.com/
+Computer Science,Python,"Python is a versatile, high-level programming language known for its readability. Key topics include Data Structures, Decorators, Generators, and frameworks like Django.",https://www.w3schools.com/python/
+Computer Science,Java,"Java is a robust, object-oriented language used for enterprise applications. Essential concepts: JVM, Multi-threading, Spring Boot, and Hibernate.",https://www.javatpoint.com/java-tutorial
+Computer Science,AI & ML,"Artificial Intelligence and Machine Learning involve algorithms that learn from data. Key topics: Neural Networks, Linear Regression, and NLP.",https://www.geeksforgeeks.org/machine-learning/
+Computer Science,C++,"C++ is a powerful language for system/software development. Focus on STL, Memory Management, Pointers, and OOPs principles.",https://.learncpp.com/
+Computer Science,Web Development,"Covers Frontend (HTML, CSS, JS) and Backend (Node.js, Databases). Focus on React, Angular, and RESTful APIs.",https://developer.mozilla.org/en-US/docs/Learn
+Information Technology,Cloud Computing,"Delivery of computing services over the internet. Study AWS, Azure, and Google Cloud models (IaaS, PaaS, SaaS).",https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/
+Information Technology,Cyber Security,"Protecting systems from digital attacks. Key areas: Ethical Hacking, Cryptography, and Network Security.",https://www.cybrary.it/
+Information Technology,Web Development,"Building and maintaining websites. Includes web design, web publishing, and database management.",https://www.freecodecamp.org/
+Information Technology,Database Management,"Systems used to store and manage data. SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) are core topics.",https://www.tutorialspoint.com/dbms/index.htm
+Information Technology,Software Engineering,"Systematic application of engineering principles to software development. Study Agile, Scrum, and SDLC.",https://www.guru99.com/software-engineering-tutorial.html
+Medical,Anatomy,Study of the structure of organisms and their parts.,https://www.innerbody.com/htm/body.html
+Medical,Physiology,Study of the functions and mechanisms in a living system.,https://medlineplus.gov/anatomyandphysiology.html
+Medical,Pathology,Science of the causes and effects of diseases.,https://www.pathologyoutlines.com/
+Medical,Pharmacology,Study of drug action and the interactions between organisms and drugs.,https://www.pharmacologyeducation.org/
+Medical,Microbiology,"Study of microscopic organisms, such as bacteria, viruses, and fungi.",https://microbiologysociety.org/why-microbiology-matters/what-is-microbiology.html
+Pharmacy,Pharmaceutics,Deals with the process of turning a new chemical entity into a medication.,https://www.pharmacytimes.com/
+Pharmacy,Pharmacognosy,Study of medicines derived from natural sources.,https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/pharmacognosy
+Pharmacy,Medicinal Chemistry,Chemistry-based discipline involving the design and synthesis of drugs.,https://pubs.acs.org/journal/jmcmar
+Pharmacy,Biochemistry,Chemical processes within and relating to living organisms.,https://www.biochemistry.org/
+Pharmacy,Clinical Pharmacy,Branch where pharmacists provide patient care that optimizes medication use.,https://www.accp.com/
+Agriculture,Agronomy,Science of soil management and crop production.,https://www.agronomy.org/
+Agriculture,Soil Science,Study of soil as a natural resource on the surface of the Earth.,https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/edu/
+Agriculture,Horticulture,Art of garden cultivation and management.,https://www.ashs.org/
+Agriculture,Plant Pathology,Scientific study of diseases in plants.,https://www.apsnet.org/
+Agriculture,Agri-Economics,Applied field of economics concerned with the application of economic theory in optimizing the production.,https://www.ers.usda.gov/
+Banking,Finance,"Management of money and includes activities such as investing, borrowing, and lending.",https://www.investopedia.com/
+Banking,Banking Laws,Legal regulations governing the operations of banks.,https://www.rbi.org.in/scripts/BS_ViewLegalContent.aspx
+Banking,Investment Banking,Helping individuals or organisations raise capital and providing financial consultancy.,https://corporatefinanceinstitute.com/resources/knowledge/strategy/investment-banking-overview/
+Banking,Risk Management,"Identification, evaluation, and prioritization of risks.",https://www.rmia.org.au/
+Banking,Retail Banking,Banking in which transactions are held directly with consumers.,https://www.bankrate.com/glossary/r/retail-banking/
+Management,Business Analytics,"Skills, technologies, and practices for continuous iterative exploration of past business performance.",https://www.hbs.edu/business-analytics/
+Management,Human Resources,"Department of a business that finds, screens, and recruits job applicants.",https://www.shrm.org/
+Management,Marketing Management,Organizational discipline which focuses on the practical application of marketing orientation.,https://www.ama.org/
+Management,Operations Management,Administration of business practices to create the highest level of efficiency possible.,https://www.apics.org/
+Management,Financial Management,"Strategic planning, organising, directing, and controlling of financial undertakings.",https://www.managementstudyguide.com/financial-management.htm
+Civil Engineering,Structural Analysis,Determination of the effects of loads on physical structures.,https://skyciv.com/structural-analysis-software/what-is-structural-analysis/
+Civil Engineering,Geotechnical Engineering,Branch concerned with the engineering behavior of earth materials.,https://www.geoinstitute.org/
+Civil Engineering,Surveying,Technique of determining the terrestrial or three-dimensional positions of points.,https://www.fig.net/
+Civil Engineering,Hydrology,"Study of the movement, distribution, and management of water.",https://www.usgs.gov/special-topic/water-science-school/science/what-hydrology
+Civil Engineering,Construction Management,"Professional service that uses specialized techniques to oversee the planning, design, and construction.",https://www.cmma.org/
+Hotel Management,Front Office Operations,Directly contact the customers and is the first place where customers reach.,https://www.hospitality-school.com/front-office-training/
+Hotel Management,Food Production,Process of transforming raw ingredients into prepared food products.,https://www.culinaryschools.org/
+Hotel Management,Housekeeping,Management of duties and chores involved in the running of a household or lodging.,https://www.hftp.org/
+Hotel Management,F&B Service,"Process of preparing, presenting and serving of food and beverages to the customers.",https://www.hospitality-school.com/food-beverage-service/
+Hotel Management,Hospitality Marketing,Marketing techniques used in the hospitality industry.,https://www.revfine.com/hospitality-marketing/
+Commerce,Accounting,Process of recording financial transactions pertaining to a business.,https://www.accountingcoach.com/
+Commerce,Business Laws,Rules that govern the dealings between people or commercial matters.,https://www.mca.gov.in/
+Commerce,Economics,"Social science that studies the production, distribution, and consumption of goods and services.",https://www.khanacademy.org/economics-finance-domain
+Commerce,Taxation,Financial charge or other levy imposed upon a taxpayer by a state.,https://www.incometaxindia.gov.in/
+Commerce,Audit,Independent examination of financial information of any entity.,https://www.icai.org/
+Law,Constitutional Law,"Body of law which defines the role, powers, and structure of different entities within a state.",https://www.constitutionofindia.net/
+Law,Criminal Law,Body of law that relates to crime.,https://www.livelaw.in/
+Law,Civil Procedure,Body of law that sets out the rules and standards that courts follow when adjudicating civil lawsuits.,https://www.barandbench.com/
+Law,Corporate Law,"Body of law governing the rights, relations, and conduct of persons, companies, organizations and businesses.",https://www.mca.gov.in/
+Law,Jurisprudence,Theoretical study of law.,https://plato.stanford.edu/entries/law-phil-theory/
+UPSC,Indian Polity,"Study of the Constitution, Government, and politics in India.",https://www.insightsonindia.com/indian-polity/
+UPSC,Modern History,History of India from the mid-18th century to the present.,https://www.drishtiias.com/summary-of-modern-indian-history
+UPSC,Geography,Study of places and the relationships between people and their environments.,https://www.pmfias.com/geography/
+UPSC,Ethics,Study of what is right and wrong in human conduct.,https://www.clearias.com/ethics-integrity-aptitude-study-plan/
+UPSC,International Relations,Study of the interactions of states and other entities in the international system.,https://www.orfonline.org/
+Education,Teaching Aptitude,Capability or ability of a teacher to teach.,https://www.ugcnetonline.in/
+Education,Educational Psychology,"Study of how people learn, including teaching methods and instructional processes.",https://www.apa.org/ed/
+Education,Curriculum Design,Creating a blueprint for learning.,https://www.ascd.org/
+Education,School Management,Running of a school by its governing body.,https://www.ed.gov/
+Education,Inclusive Education,"Education that includes everyone, with non-disabled and disabled people learning together.",https://www.unesco.org/en/education/inclusion
+Design,UI/UX,Design of user interfaces for machines and software.,https://www.nngroup.com/
+Design,Graphic Design,"Process of visual communication and problem-solving through the use of typography, photography, and illustration.",https://www.behance.net/
+Design,Interior Design,Art and science of enhancing the interior of a building.,https://www.asid.org/
+Design,Fashion Design,"Art of applying design, aesthetics, clothing construction and natural beauty to clothing.",https://www.vogue.com/fashion
+Design,Industrial Design,Process of design applied to products that are to be manufactured through techniques of mass production.,https://www.idsa.org/
+Media,Journalism,Production and distribution of reports on current events based on facts.,https://www.poynter.org/
+Media,Mass Communication,Exchanging of information on a large scale to a wide range of people.,https://www.journalism.org/
+Media,Public Relations,Practice of managing the spread of information between an individual or an organization.,https://www.prsa.org/
+Media,Digital Marketing,Marketing of products or services using digital technologies.,https://www.hubspot.com/digital-marketing
+Media,Broadcasting,Distribution of audio or video content to a dispersed audience via any electronic mass communications medium.,https://www.nab.org/
+Environmental Science,Ecology,Study of the relationships between living organisms and their physical environment.,https://www.esa.org/
+Environmental Science,Pollution Control,Management of waste to reduce its impact on the environment.,https://www.epa.gov/
+Environmental Science,Environmental Laws,Collective term encompassing aspects of the law that provide protection to the environment.,https://www.unep.org/
+Environmental Science,Sustainability,Ability to be maintained at a certain rate or level.,https://www.sdgfund.org/
+Environmental Science,Climate Change,Significant change in the average weather of a region over a long period of time.,https://climate.nasa.gov/
+Robotics,Control Systems,"Devices that manage, command, direct or regulate the behavior of other devices or systems.",https://www.controleng.com/
+Robotics,Embedded Systems,Controller with a dedicated function within a larger mechanical or electrical system.,https://www.embedded.com/
+Robotics,Mechatronics,"Multidisciplinary field of science that includes a combination of mechanical engineering, electronics, and computer engineering.",https://www.mechatronics.org/
+Robotics,Kinematics,"Branch of mechanics which describes the motion of points, bodies and systems of bodies.",https://www.robotics.org/
+Robotics,Artificial Intelligence,Simulation of human intelligence processes by machines.,https://openai.com/
+Computer Science,Python,"Python is a versatile, high-level programming language known for its readability. Key topics include Data Structures, Decorators, Generators, and frameworks like Django.",https://www.w3schools.com/python/
+Computer Science,Java,"Java is a robust, object-oriented language used for enterprise applications. Essential concepts: JVM, Multi-threading, Spring Boot, and Hibernate.",https://www.javatpoint.com/java-tutorial
+Computer Science,AI & ML,"Artificial Intelligence and Machine Learning involve algorithms that learn from data. Key topics: Neural Networks, Linear Regression, and NLP.",https://www.geeksforgeeks.org/machine-learning/
+Computer Science,C++,"C++ is a powerful language for system/software development. Focus on STL, Memory Management, Pointers, and OOPs principles.",https://.learncpp.com/
+Computer Science,Web Development,"Covers Frontend (HTML, CSS, JS) and Backend (Node.js, Databases). Focus on React, Angular, and RESTful APIs.",https://developer.mozilla.org/en-US/docs/Learn
+Information Technology,Cloud Computing,"Delivery of computing services over the internet. Study AWS, Azure, and Google Cloud models (IaaS, PaaS, SaaS).",https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/
+Information Technology,Cyber Security,"Protecting systems from digital attacks. Key areas: Ethical Hacking, Cryptography, and Network Security.",https://www.cybrary.it/
+Information Technology,Web Development,"Building and maintaining websites. Includes web design, web publishing, and database management.",https://www.freecodecamp.org/
+Information Technology,Database Management,"Systems used to store and manage data. SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) are core topics.",https://www.tutorialspoint.com/dbms/index.htm
+Information Technology,Software Engineering,"Systematic application of engineering principles to software development. Study Agile, Scrum, and SDLC.",https://www.guru99.com/software-engineering-tutorial.html
+Medical,Anatomy,Study of the structure of organisms and their parts.,https://www.innerbody.com/htm/body.html
+Medical,Physiology,Study of the functions and mechanisms in a living system.,https://medlineplus.gov/anatomyandphysiology.html
+Medical,Pathology,Science of the causes and effects of diseases.,https://www.pathologyoutlines.com/
+Medical,Pharmacology,Study of drug action and the interactions between organisms and drugs.,https://www.pharmacologyeducation.org/
+Medical,Microbiology,"Study of microscopic organisms, such as bacteria, viruses, and fungi.",https://microbiologysociety.org/why-microbiology-matters/what-is-microbiology.html
+Pharmacy,Pharmaceutics,Deals with the process of turning a new chemical entity into a medication.,https://www.pharmacytimes.com/
+Pharmacy,Pharmacognosy,Study of medicines derived from natural sources.,https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/pharmacognosy
+Pharmacy,Medicinal Chemistry,Chemistry-based discipline involving the design and synthesis of drugs.,https://pubs.acs.org/journal/jmcmar
+Pharmacy,Biochemistry,Chemical processes within and relating to living organisms.,https://www.biochemistry.org/
+Pharmacy,Clinical Pharmacy,Branch where pharmacists provide patient care that optimizes medication use.,https://www.accp.com/
+Agriculture,Agronomy,Science of soil management and crop production.,https://www.agronomy.org/
+Agriculture,Soil Science,Study of soil as a natural resource on the surface of the Earth.,https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/edu/
+Agriculture,Horticulture,Art of garden cultivation and management.,https://www.ashs.org/
+Agriculture,Plant Pathology,Scientific study of diseases in plants.,https://www.apsnet.org/
+Agriculture,Agri-Economics,Applied field of economics concerned with the application of economic theory in optimizing the production.,https://www.ers.usda.gov/
+Banking,Finance,"Management of money and includes activities such as investing, borrowing, and lending.",https://www.investopedia.com/
+Banking,Banking Laws,Legal regulations governing the operations of banks.,https://www.rbi.org.in/scripts/BS_ViewLegalContent.aspx
+Banking,Investment Banking,Helping individuals or organisations raise capital and providing financial consultancy.,https://corporatefinanceinstitute.com/resources/knowledge/strategy/investment-banking-overview/
+Banking,Risk Management,"Identification, evaluation, and prioritization of risks.",https://www.rmia.org.au/
+Banking,Retail Banking,Banking in which transactions are held directly with consumers.,https://www.bankrate.com/glossary/r/retail-banking/
+Management,Business Analytics,"Skills, technologies, and practices for continuous iterative exploration of past business performance.",https://www.hbs.edu/business-analytics/
+Management,Human Resources,"Department of a business that finds, screens, and recruits job applicants.",https://www.shrm.org/
+Management,Marketing Management,Organizational discipline which focuses on the practical application of marketing orientation.,https://www.ama.org/
+Management,Operations Management,Administration of business practices to create the highest level of efficiency possible.,https://www.apics.org/
+Management,Financial Management,"Strategic planning, organising, directing, and controlling of financial undertakings.",https://www.managementstudyguide.com/financial-management.htm
+Civil Engineering,Structural Analysis,Determination of the effects of loads on physical structures.,https://skyciv.com/structural-analysis-software/what-is-structural-analysis/
+Civil Engineering,Geotechnical Engineering,Branch concerned with the engineering behavior of earth materials.,https://www.geoinstitute.org/
+Civil Engineering,Surveying,Technique of determining the terrestrial or three-dimensional positions of points.,https://www.fig.net/
+Civil Engineering,Hydrology,"Study of the movement, distribution, and management of water.",https://www.usgs.gov/special-topic/water-science-school/science/what-hydrology
+Civil Engineering,Construction Management,"Professional service that uses specialized techniques to oversee the planning, design, and construction.",https://www.cmma.org/
+Hotel Management,Front Office Operations,Directly contact the customers and is the first place where customers reach.,https://www.hospitality-school.com/front-office-training/
+Hotel Management,Food Production,Process of transforming raw ingredients into prepared food products.,https://www.culinaryschools.org/
+Hotel Management,Housekeeping,Management of duties and chores involved in the running of a household or lodging.,https://www.hftp.org/
+Hotel Management,F&B Service,"Process of preparing, presenting and serving of food and beverages to the customers.",https://www.hospitality-school.com/food-beverage-service/
+Hotel Management,Hospitality Marketing,Marketing techniques used in the hospitality industry.,https://www.revfine.com/hospitality-marketing/
+Commerce,Accounting,Process of recording financial transactions pertaining to a business.,https://www.accountingcoach.com/
+Commerce,Business Laws,Rules that govern the dealings between people or commercial matters.,https://www.mca.gov.in/
+Commerce,Economics,"Social science that studies the production, distribution, and consumption of goods and services.",https://www.khanacademy.org/economics-finance-domain
+Commerce,Taxation,Financial charge or other levy imposed upon a taxpayer by a state.,https://www.incometaxindia.gov.in/
+Commerce,Audit,Independent examination of financial information of any entity.,https://www.icai.org/
+Law,Constitutional Law,"Body of law which defines the role, powers, and structure of different entities within a state.",https://www.constitutionofindia.net/
+Law,Criminal Law,Body of law that relates to crime.,https://www.livelaw.in/
+Law,Civil Procedure,Body of law that sets out the rules and standards that courts follow when adjudicating civil lawsuits.,https://www.barandbench.com/
+Law,Corporate Law,"Body of law governing the rights, relations, and conduct of persons, companies, organizations and businesses.",https://www.mca.gov.in/
+Law,Jurisprudence,Theoretical study of law.,https://plato.stanford.edu/entries/law-phil-theory/
+UPSC,Indian Polity,"Study of the Constitution, Government, and politics in India.",https://www.insightsonindia.com/indian-polity/
+UPSC,Modern History,History of India from the mid-18th century to the present.,https://www.drishtiias.com/summary-of-modern-indian-history
+UPSC,Geography,Study of places and the relationships between people and their environments.,https://www.pmfias.com/geography/
+UPSC,Ethics,Study of what is right and wrong in human conduct.,https://www.clearias.com/ethics-integrity-aptitude-study-plan/
+UPSC,International Relations,Study of the interactions of states and other entities in the international system.,https://www.orfonline.org/
+Education,Teaching Aptitude,Capability or ability of a teacher to teach.,https://www.ugcnetonline.in/
+Education,Educational Psychology,"Study of how people learn, including teaching methods and instructional processes.",https://www.apa.org/ed/
+Education,Curriculum Design,Creating a blueprint for learning.,https://www.ascd.org/
+Education,School Management,Running of a school by its governing body.,https://www.ed.gov/
+Education,Inclusive Education,"Education that includes everyone, with non-disabled and disabled people learning together.",https://www.unesco.org/en/education/inclusion
+Design,UI/UX,Design of user interfaces for machines and software.,https://www.nngroup.com/
+Design,Graphic Design,"Process of visual communication and problem-solving through the use of typography, photography, and illustration.",https://www.behance.net/
+Design,Interior Design,Art and science of enhancing the interior of a building.,https://www.asid.org/
+Design,Fashion Design,"Art of applying design, aesthetics, clothing construction and natural beauty to clothing.",https://www.vogue.com/fashion
+Design,Industrial Design,Process of design applied to products that are to be manufactured through techniques of mass production.,https://www.idsa.org/
+Media,Journalism,Production and distribution of reports on current events based on facts.,https://www.poynter.org/
+Media,Mass Communication,Exchanging of information on a large scale to a wide range of people.,https://www.journalism.org/
+Media,Public Relations,Practice of managing the spread of information between an individual or an organization.,https://www.prsa.org/
+Media,Digital Marketing,Marketing of products or services using digital technologies.,https://www.hubspot.com/digital-marketing
+Media,Broadcasting,Distribution of audio or video content to a dispersed audience via any electronic mass communications medium.,https://www.nab.org/
+Environmental Science,Ecology,Study of the relationships between living organisms and their physical environment.,https://www.esa.org/
+Environmental Science,Pollution Control,Management of waste to reduce its impact on the environment.,https://www.epa.gov/
+Environmental Science,Environmental Laws,Collective term encompassing aspects of the law that provide protection to the environment.,https://www.unep.org/
+Environmental Science,Sustainability,Ability to be maintained at a certain rate or level.,https://www.sdgfund.org/
+Environmental Science,Climate Change,Significant change in the average weather of a region over a long period of time.,https://climate.nasa.gov/
+Robotics,Control Systems,"Devices that manage, command, direct or regulate the behavior of other devices or systems.",https://www.controleng.com/
+Robotics,Embedded Systems,Controller with a dedicated function within a larger mechanical or electrical system.,https://www.embedded.com/
+Robotics,Mechatronics,"Multidisciplinary field of science that includes a combination of mechanical engineering, electronics, and computer engineering.",https://www.mechatronics.org/
+Robotics,Kinematics,"Branch of mechanics which describes the motion of points, bodies and systems of bodies.",https://www.robotics.org/
+Robotics,Artificial Intelligence,Simulation of human intelligence processes by machines.,https://openai.com/
+Computer Science,Python,"Python is a versatile, high-level programming language known for its readability. Key topics include Data Structures, Decorators, Generators, and frameworks like Django.",https://www.w3schools.com/python/
+Computer Science,Java,"Java is a robust, object-oriented language used for enterprise applications. Essential concepts: JVM, Multi-threading, Spring Boot, and Hibernate.",https://www.javatpoint.com/java-tutorial
+Computer Science,AI & ML,"Artificial Intelligence and Machine Learning involve algorithms that learn from data. Key topics: Neural Networks, Linear Regression, and NLP.",https://www.geeksforgeeks.org/machine-learning/
+Computer Science,C++,"C++ is a powerful language for system/software development. Focus on STL, Memory Management, Pointers, and OOPs principles.",https://.learncpp.com/
+Computer Science,Web Development,"Covers Frontend (HTML, CSS, JS) and Backend (Node.js, Databases). Focus on React, Angular, and RESTful APIs.",https://developer.mozilla.org/en-US/docs/Learn
+Information Technology,Cloud Computing,"Delivery of computing services over the internet. Study AWS, Azure, and Google Cloud models (IaaS, PaaS, SaaS).",https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/
+Information Technology,Cyber Security,"Protecting systems from digital attacks. Key areas: Ethical Hacking, Cryptography, and Network Security.",https://www.cybrary.it/
+Information Technology,Web Development,"Building and maintaining websites. Includes web design, web publishing, and database management.",https://www.freecodecamp.org/
+Information Technology,Database Management,"Systems used to store and manage data. SQL (MySQL, PostgreSQL) and NoSQL (MongoDB) are core topics.",https://www.tutorialspoint.com/dbms/index.htm
+Information Technology,Software Engineering,"Systematic application of engineering principles to software development. Study Agile, Scrum, and SDLC.",https://www.guru99.com/software-engineering-tutorial.html
+Medical,Anatomy,Study of the structure of organisms and their parts.,https://www.innerbody.com/htm/body.html
+Medical,Physiology,Study of the functions and mechanisms in a living system.,https://medlineplus.gov/anatomyandphysiology.html
+Medical,Pathology,Science of the causes and effects of diseases.,https://www.pathologyoutlines.com/
+Medical,Pharmacology,Study of drug action and the interactions between organisms and drugs.,https://www.pharmacologyeducation.org/
+Medical,Microbiology,"Study of microscopic organisms, such as bacteria, viruses, and fungi.",https://microbiologysociety.org/why-microbiology-matters/what-is-microbiology.html
+Pharmacy,Pharmaceutics,Deals with the process of turning a new chemical entity into a medication.,https://www.pharmacytimes.com/
+Pharmacy,Pharmacognosy,Study of medicines derived from natural sources.,https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/pharmacognosy
+Pharmacy,Medicinal Chemistry,Chemistry-based discipline involving the design and synthesis of drugs.,https://pubs.acs.org/journal/jmcmar
+Pharmacy,Biochemistry,Chemical processes within and relating to living organisms.,https://www.biochemistry.org/
+Pharmacy,Clinical Pharmacy,Branch where pharmacists provide patient care that optimizes medication use.,https://www.accp.com/
+Agriculture,Agronomy,Science of soil management and crop production.,https://www.agronomy.org/
+Agriculture,Soil Science,Study of soil as a natural resource on the surface of the Earth.,https://www.nrcs.usda.gov/wps/portal/nrcs/main/soils/edu/
+Agriculture,Horticulture,Art of garden cultivation and management.,https://www.ashs.org/
+Agriculture,Plant Pathology,Scientific study of diseases in plants.,https://www.apsnet.org/
+Agriculture,Agri-Economics,Applied field of economics concerned with the application of economic theory in optimizing the production.,https://www.ers.usda.gov/
+Banking,Finance,"Management of money and includes activities such as investing, borrowing, and lending.",https://www.investopedia.com/
+Banking,Banking Laws,Legal regulations governing the operations of banks.,https://www.rbi.org.in/scripts/BS_ViewLegalContent.aspx
+Banking,Investment Banking,Helping individuals or organisations raise capital and providing financial consultancy.,https://corporatefinanceinstitute.com/resources/knowledge/strategy/investment-banking-overview/
+Banking,Risk Management,"Identification, evaluation, and prioritization of risks.",https://www.rmia.org.au/
+Banking,Retail Banking,Banking in which transactions are held directly with consumers.,https://www.bankrate.com/glossary/r/retail-banking/
+Management,Business Analytics,"Skills, technologies, and practices for continuous iterative exploration of past business performance.",https://www.hbs.edu/business-analytics/
+Management,Human Resources,"Department of a business that finds, screens, and recruits job applicants.",https://www.shrm.org/
+Management,Marketing Management,Organizational discipline which focuses on the practical application of marketing orientation.,https://www.ama.org/
+Management,Operations Management,Administration of business practices to create the highest level of efficiency possible.,https://www.apics.org/
+Management,Financial Management,"Strategic planning, organising, directing, and controlling of financial undertakings.",https://www.managementstudyguide.com/financial-management.htm
+Civil Engineering,Structural Analysis,Determination of the effects of loads on physical structures.,https://skyciv.com/structural-analysis-software/what-is-structural-analysis/
+Civil Engineering,Geotechnical Engineering,Branch concerned with the engineering behavior of earth materials.,https://www.geoinstitute.org/
+Civil Engineering,Surveying,Technique of determining the terrestrial or three-dimensional positions of points.,https://www.fig.net/
+Civil Engineering,Hydrology,"Study of the movement, distribution, and management of water.",https://www.usgs.gov/special-topic/water-science-school/science/what-hydrology
+Civil Engineering,Construction Management,"Professional service that uses specialized techniques to oversee the planning, design, and construction.",https://www.cmma.org/
+Hotel Management,Front Office Operations,Directly contact the customers and is the first place where customers reach.,https://www.hospitality-school.com/front-office-training/
+Hotel Management,Food Production,Process of transforming raw ingredients into prepared food products.,https://www.culinaryschools.org/
+Hotel Management,Housekeeping,Management of duties and chores involved in the running of a household or lodging.,https://www.hftp.org/
+Hotel Management,F&B Service,"Process of preparing, presenting and serving of food and beverages to the customers.",https://www.hospitality-school.com/food-beverage-service/
+Hotel Management,Hospitality Marketing,Marketing techniques used in the hospitality industry.,https://www.revfine.com/hospitality-marketing/
+Commerce,Accounting,Process of recording financial transactions pertaining to a business.,https://www.accountingcoach.com/
+Commerce,Business Laws,Rules that govern the dealings between people or commercial matters.,https://www.mca.gov.in/
+Commerce,Economics,"Social science that studies the production, distribution, and consumption of goods and services.",https://www.khanacademy.org/economics-finance-domain
+Commerce,Taxation,Financial charge or other levy imposed upon a taxpayer by a state.,https://www.incometaxindia.gov.in/
+Commerce,Audit,Independent examination of financial information of any entity.,https://www.icai.org/
+Law,Constitutional Law,"Body of law which defines the role, powers, and structure of different entities within a state.",https://www.constitutionofindia.net/
+Law,Criminal Law,Body of law that relates to crime.,https://www.livelaw.in/
+Law,Civil Procedure,Body of law that sets out the rules and standards that courts follow when adjudicating civil lawsuits.,https://www.barandbench.com/
+Law,Corporate Law,"Body of law governing the rights, relations, and conduct of persons, companies, organizations and businesses.",https://www.mca.gov.in/
+Law,Jurisprudence,Theoretical study of law.,https://plato.stanford.edu/entries/law-phil-theory/
+UPSC,Indian Polity,"Study of the Constitution, Government, and politics in India.",https://www.insightsonindia.com/indian-polity/
+UPSC,Modern History,History of India from the mid-18th century to the present.,https://www.drishtiias.com/summary-of-modern-indian-history
+UPSC,Geography,Study of places and the relationships between people and their environments.,https://www.pmfias.com/geography/
+UPSC,Ethics,Study of what is right and wrong in human conduct.,https://www.clearias.com/ethics-integrity-aptitude-study-plan/
+UPSC,International Relations,Study of the interactions of states and other entities in the international system.,https://www.orfonline.org/
+Education,Teaching Aptitude,Capability or ability of a teacher to teach.,https://www.ugcnetonline.in/
+Education,Educational Psychology,"Study of how people learn, including teaching methods and instructional processes.",https://www.apa.org/ed/
+Education,Curriculum Design,Creating a blueprint for learning.,https://www.ascd.org/
+Education,School Management,Running of a school by its governing body.,https://www.ed.gov/
+Education,Inclusive Education,"Education that includes everyone, with non-disabled and disabled people learning together.",https://www.unesco.org/en/education/inclusion
+Design,UI/UX,Design of user interfaces for machines and software.,https://www.nngroup.com/
+Design,Graphic Design,"Process of visual communication and problem-solving through the use of typography, photography, and illustration.",https://www.behance.net/
+Design,Interior Design,Art and science of enhancing the interior of a building.,https://www.asid.org/
+Design,Fashion Design,"Art of applying design, aesthetics, clothing construction and natural beauty to clothing.",https://www.vogue.com/fashion
+Design,Industrial Design,Process of design applied to products that are to be manufactured through techniques of mass production.,https://www.idsa.org/
+Media,Journalism,Production and distribution of reports on current events based on facts.,https://www.poynter.org/
+Media,Mass Communication,Exchanging of information on a large scale to a wide range of people.,https://www.journalism.org/
+Media,Public Relations,Practice of managing the spread of information between an individual or an organization.,https://www.prsa.org/
+Media,Digital Marketing,Marketing of products or services using digital technologies.,https://www.hubspot.com/digital-marketing
+Media,Broadcasting,Distribution of audio or video content to a dispersed audience via any electronic mass communications medium.,https://www.nab.org/

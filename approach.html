@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Approach – UniGuide</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/approach.css') }}">
+</head>
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="logo">
+  <img src="{{ url_for('static', filename='images/uniguide-all-in-one.png') }}" alt="UniGuide Logo"> 
+  
+</div>
+  <nav  class="nav-links">
+    <a href="/">Home</a>
+    <a href="/about" class="active">About Us</a>
+    <a href="/" class="active-page">Our Approach</a>
+    <a href="/contact">Contact</a>
+  </nav>
+</header>
+
+</a>
+
+<!-- HERO -->
+<section class="approach-hero">
+  <h1 class="reveal">We don’t just give information.</h1>
+  <h2 class="reveal">👉We guide you step by step.</h2>
+  <p class="reveal">
+    <b>UniGuide is built for students who feel confused, stuck, or overwhelmed.
+    Our approach focuses on clarity first, direction next, and confidence in the end.</b>
+  </p>
+</section>
+
+<!-- HOW GUIDANCE WORKS -->
+<section class="guidance-steps">
+  <h2>How Guidance Works</h2>
+
+  <div class="steps-grid">
+    <div class="step-card reveal">
+      <span>01</span>
+      <h3><b><u>Understand You</u></b></h3>
+      <p>
+        We understand your background, academic stage, interests, and career goals
+        before suggesting anything.
+      </p>
+    </div>
+
+    <div class="step-card reveal">
+      <span>02</span>
+      <h3><u><b>Confusion Clear</b></u></h3>
+      <p>
+        We remove noise, fake paths, unrealistic advice, and help you see what actually matters.
+      </p>
+    </div>
+
+    <div class="step-card reveal">
+      <span>03</span>
+      <h3><u><b>Build Your Path</b></u></h3>
+      <p>
+        You get a practical roadmap designed for your situation, not generic internet advice.
+      </p>
+    </div>
+
+    <div class="step-card reveal">
+      <span>04</span>
+      <h3><u><b>Prepare You</b></u></h3>
+      <p>
+        Skills, projects, resume, confidence, and interview readiness — everything aligned.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT YOU GET -->
+<section class="stage-benefits">
+  <h2 class="reveal">What You Get at Each Stage</h2>
+
+  <div class="benefit-list">
+    <div>
+      <h4 class="reveal"><b>🎯Early Stage</b></h4>
+      <p class="reveal">Clarity, awareness, and understanding your options.</p>
+    </div>
+    <div>
+      <h4 class="reveal"><b>🎯Middle Stage</b></h4>
+      <p class="reveal">A clear roadmap, skill development, and direction.</p>
+    </div>
+    <div>
+      <h4 class="reveal"><b>🎯Final Stage</b></h4>
+      <p class="reveal">Confidence, readiness, and knowing exactly what to do next.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CHOOSE PATH -->
+<section class="choose-path">
+  <h2 class="reveal">Choose Your Journey</h2>
+  <p class="reveal">
+   Whether you're in college or starting your career,
+select your stage and get guidance made just for you.
+  </p>
+
+  <div class="path-cards">
+    <a href="{{ url_for('college') }}" id="collegeDash" class="path-card">
+      <h3 class="reveal">🎓</h3>
+      <h3 class="reveal"><b>STUDYPRO</b></h3>
+      <p class="reveal">
+"A complete college success hub where you’ll discover semester-wise skill plans,
+project ideas, internship guidance, and step-by-step growth strategies".
+</p>
+
+<span class="cta"><b>Explore Your College Path →</b></span>
+
+    </a>
+
+    <a href="{{ url_for('fresher') }}" id="fresherDash" class="path-card">
+      <h3 class="reveal">🚀</h3>
+      <h3 class="reveal"><b>CAREERSTART</b></h3>
+      <p class="reveal">Feeling confused after graduation?🤔 
+"Get clear career direction, resume support, interview preparation,
+and a structured roadmap to become job-ready with confidence".</p>
+<span class="cta"><b>Start Your Career Journey →</b></span>
+    </a>
+  </div>
+</section>
+
+<!-- NOT FOR -->
+<section class="not-for">
+  <h2 class="reveal">This Is Not For</h2>
+  <ul class="reveal">
+    <li>People looking for shortcuts or instant success</li>
+    <li>Fake job seekers or shortcut hunters</li>
+    <li>Those unwilling to learn or grow step by step</li>
+  </ul>
+</section>
+<script>
+const reveals = document.querySelectorAll(".reveal");
+
+function revealOnScroll() {
+  const windowHeight = window.innerHeight;
+
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+
+    if (top < windowHeight - 100) {
+      el.classList.add("active");
+    }
+  });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+revealOnScroll();
+
+</script>
+</body>
+
+
+</html>

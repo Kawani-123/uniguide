@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - UniGuide</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/contact.css') }}">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="navbar">
+  <img src="{{ url_for('static', filename='images/uniguide-all-in-one.png') }}">
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/contact" class="active-page">Contact</a>
+    <a href="/about">About us</a>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- LEFT -->
+  <div class="contact-info">
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you. Send your feedback or queries anytime.</p>
+
+    <div class="info-box">
+      <p><b>Email:</b> support@uniguide.in</p>
+      <p><b>Phone:</b> +91 9182736455</p>
+    </div>
+
+    <div class="social">
+      <h3>Follow Us</h3>
+      <a href="https://www.facebook.com/share/18QWFuusUi/" target="_blank">
+        <img src="{{ url_for('static', filename='images/Facebooklogo.avif') }}">
+      </a>
+      <a href="https://x.com/uniguide922" target="_blank">
+        <img src="{{ url_for('static', filename='images/twitterlogo.png') }}">
+      </a>
+      <a href="https://www.instagram.com/uniguide922?igsh=aWNzenUzbDg4bGh2" target="_blank">
+        <img src="{{ url_for('static', filename='images/instagramlogo.avif') }}">
+      </a>
+      
+    </div>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="contact-form">
+    <h2>Send Message</h2>
+
+    <!-- ✅ SINGLE FLASH MESSAGE (ONLY ONCE) -->
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <div class="success">✔ {{ messages[0] }}</div>
+      {% endif %}
+    {% endwith %}
+
+    <form id="contactForm" method="POST" action="/contact">
+
+      <input type="text" name="name" placeholder="Your Name" required>
+
+      <input type="email" name="email" placeholder="Your Email" required>
+
+      <textarea name="message" placeholder="Your Message" required></textarea>
+
+      <input type="hidden" name="rating" id="ratingInput" value="0">
+
+      <div class="rating">
+        <span class="star" onclick="rate(1)">★</span>
+        <span class="star" onclick="rate(2)">★</span>
+        <span class="star" onclick="rate(3)">★</span>
+        <span class="star" onclick="rate(4)">★</span>
+        <span class="star" onclick="rate(5)">★</span>
+      </div>
+
+      <button type="submit">Submit</button>
+
+    </form>
+  </div>
+
+</div>
+
+<script>
+function rate(value) {
+  document.getElementById("ratingInput").value = value;
+
+  let stars = document.querySelectorAll('.star');
+  stars.forEach((star, index) => {
+    star.classList.toggle('active', index < value);
+  });
+}
+
+// auto hide message
+setTimeout(() => {
+  const msg = document.querySelector(".success");
+  if (msg) msg.style.display = "none";
+}, 3000);
+</script>
+
+</body>
+</html>

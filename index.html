@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Uniguide – “All in one.”</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="full-bg"></div>
+<!-- NAVBAR -->
+<div class="top-strip">
+<div class="navbar">
+  <!-- LEFT -->
+  <div class="logo">
+  <img src="{{ url_for('static', filename='images/uniguide-all-in-one.png') }}" alt="UniGuide Logo">
+  </div>
+  <!-- CENTER -->
+  <div class="menu">
+
+  <a href="/">Home</a>
+  <span class="divider">|</span>
+
+  <a href="/about">About</a>
+  <span class="divider">|</span>
+
+<a href="/approach">Our Approch</a>
+  
+  <span class="divider">|</span>
+
+  <a href="/contact">Contact</a>
+
+</div>
+<!-- RIGHT -->
+    <div class="nav-right">
+   {% if session.get("email") %}
+<div class="profile-circle" onclick="toggleProfile()">
+<img  src="{{ url_for('static', filename='images/user-circles.avif') }}">
+</div>
+{% else %}
+<button class="login-register">LOGIN / REGISTER</button>
+{% endif %}
+</div>
+
+</div>
+</div>
+</div>
+  <div id="flashMessage">
+  {% with messages = get_flashed_messages(with_categories=true) %}
+  {% if messages %}
+    {% for category, message in messages %}
+      <div class="flash {{ category }}">
+        {{ message }}
+      </div>
+    {% endfor %}
+  {% endif %}
+{% endwith %}
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content ">
+    <h1><b>BUILD YOUR FUTURE WITH CLARITY</b></h1>
+    <p>From college decisions to career growth — everything you need, in one place</p>
+
+    <div class="hero-cta">
+      <a href="{{ url_for('college') }}" class="primary-btn">Study Guide</a>
+      <a href="{{ url_for('fresher') }}" class="primary-btn">Career Guide </a>
+    </div>
+  </div>
+</section>
+<section class="intro-strip">
+  <div class="intro-words">
+   <div class="marquee">
+  <div class="track">
+  <div class="content">
+    <span>Career Guidance</span><span class="dot">|</span>
+    <span>Internships</span><span class="dot">|</span>
+    <span>Skill Tracking</span><span class="dot">|</span>
+    <span>Placement Prep</span><span class="dot">|</span>
+    <span>AI Recommendations</span><span class="dot">|</span>
+    
+    
+  </div>
+  </div>
+  </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features reveal">
+  <h2><b>Everything you need to grow</b></h2>
+
+  <div class="feature-grid">
+
+    <div class="feature-card">
+      <h3>Career Direction</h3>
+      <p>Clear direction based on your profile.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Internships</h3>
+      <p>Relevant opportunities for real growth.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Skill Tracking</h3>
+      <p>Monitor your learning progress.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Placement Prep</h3>
+      <p>Get ready for interviews and jobs.</p>
+    </div>
+
+  </div>
+</section>
+<section class="split-slider reveal">
+
+  <!-- LEFT SIDE -->
+  <div class="left-content">
+    <h2><b>Explore Your Future</b></h2>
+    <p>
+      Discover career paths, track your progress, and get guidance
+      tailored to your goals.
+    </p>
+  </div>
+<div class="right-slider">
+  <div class="slider-track-vertical">
+    <img src="{{ url_for('static', filename='images/Student_notes.png') }}">
+    <img src="{{ url_for('static', filename='images/Sucess.png') }}">
+    <img src="{{ url_for('static', filename='images/study.jpg') }}">
+    <img src="{{ url_for('static', filename='images/mentor guiding.jpg') }}">
+    <img src="{{ url_for('static', filename='images/illustrator.jpg') }}">
+
+    <img src="{{ url_for('static', filename='images/Student_notes.png') }}">
+    <img src="{{ url_for('static', filename='images/Sucess.png') }}">
+    <img src="{{ url_for('static', filename='images/study.jpg') }}">
+    <img src="{{ url_for('static', filename='images/mentor guiding.jpg') }}">
+    <img src="{{ url_for('static', filename='images/illustrator.jpg') }}">
+
+
+  </div>
+  </div>
+</section>
+<!-- ================= HOW IT WORKS ================= -->
+<section class="how reveal">
+  <h2><b>How It Works</b></h2>
+
+  <div class="how-grid">
+
+    <div class="how-card">
+      <h3>👤 Create Profile</h3>
+      <p>Tell us your interests and goals</p>
+    </div>
+
+    <div class="how-card">
+      <h3>🧠 Get Recommendations</h3>
+      <p>Smart suggestions based on your data</p>
+    </div>
+
+    <div class="how-card">
+      <h3>📈 Track Progress</h3>
+      <p>Monitor growth and stay consistent</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================= STATS ================= -->
+<section class="stats reveal">
+  <div class="stat-box">
+    <h2>10K+</h2>
+    <p>Students</p>
+  </div>
+
+  <div class="stat-box">
+    <h2>5K+</h2>
+    <p>Internships</p>
+  </div>
+
+  <div class="stat-box">
+    <h2>92%</h2>
+    <p>Success Rate</p>
+  </div>
+</section>
+
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="testimonials reveal">
+  <h2>What Students Say</h2>
+
+  <div class="testimonial-grid">
+
+    <div class="testimonial-card">
+      <p>"This platform gave me clear direction for my career."</p>
+      <h4>- A Student</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <p>"Internship suggestions were actually useful."</p>
+      <h4>- Engineering Student</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <p>"Helped me prepare for placements step by step."</p>
+      <h4>- Final Year Student</h4>
+    </div>
+
+  </div>
+</section>
+
+<!-- SIMPLE CTA -->
+<section class="value-section reveal">
+  <h2>Why UniGuide?</h2>
+  <p>
+    We simplify your journey from college decisions to career success.
+    No confusion. No guesswork. Just clear direction.
+  </p>
+</section>
+</div>
+
+</section>
+
+<footer class="footer ">
+    <div class="footer-strip">
+    “Your Career Companion – From Campus To Corporate.”
+  </div>
+  <div class="footer-container">
+<!-- Center: Contact -->
+     <div class="footer-center">
+        <div class="footer-block">
+      <h3>Phone no.</h3>
+      <p><u>+91 9182736455</u></p>
+      <p><u>+91 91234 56789</u></p>
+      <p><u>+91 90000 11111</u></p>
+    </div>
+
+    <!-- Center-right: Email -->
+    <div class="footer-block">
+      <h3>Email Support</h3>
+      <p><u>support@uniguide.in</u></p>
+      <p><u>contact@uniguide.in</u></p>
+      <p><u>info@uniguide.in</u></p>
+    </div>
+</div>
+
+    <!-- Right bottom: Social icons -->
+    <div class="footer-right">
+      <a href="https://www.facebook.com/share/18QWFuusUi/" target="_blank">
+  <img src="{{ url_for('static', filename='images/Facebooklogo.avif') }}" alt="Facebook">
+  </a>
+  <a href="https://x.com/uniguide922" target="_blank">
+  <img src="{{ url_for('static', filename='images/twitterlogo.png') }}" alt="Twitter">
+  </a>
+  <a href="https://www.instagram.com/uniguide922?igsh=aWNzenUzbDg4bGh2" target="_blank">
+  <img src="{{ url_for('static', filename='images/instagramlogo.avif') }}" alt="Instagram">
+  </a>
+</div>
+</div>
+</footer>
+<div class="auth-overlay auth-hidden" id="authOverlay">
+  <div class="auth-box">
+    <div class="auth-tabs">
+      
+      <button id="loginTab" class="auth-tab active">Login</button>
+      <button id="registerTab" class="auth-tab">Register</button>
+    </div>
+      <h2 id="authTitle">Welcome Back</h2>
+      <p id="authSubtitle">Login to continue your journey</p>
+    <!-- LOGIN FORM -->
+    <form id="loginForm" class="auth-form auth-hidden" action="/login" method="POST">
+
+<label class="auth-label">EMAIL_ID</label>
+<input type="text" name="email" placeholder="Enter email" required>
+
+<label class="auth-label">PASSWORD</label>
+<input type="password" name="password" placeholder="Password" required>
+
+<button type="submit" class="auth-submit">Login</button>
+
+</form>
+<!--REGISTER FORM-->
+    <form id="registerForm" class="auth-form auth-hidden"
+action="/register"
+method= "POST">
+<div class="register-grid">
+<div class="reg-col">
+<label class="auth-label">Full NAME</label>
+<input type="text" id="regName" name="name" placeholder="Enter Name" required>
+<label class="auth-label">EMAIL ID</label>
+<input type="email" id="regEmail" name="email" placeholder="Email ID" required>
+</div>
+<div class="reg-col">
+<label class="auth-label">MODE</label>
+<select name="mode" required>
+<option value="">Select Mode</option>
+<option value="college">StudyPro</option>
+<option value="fresher">CareerStart</option>
+</select>
+<label class="auth-label">PASSWORD</label>
+<input type="password" id="regPass" name="password" placeholder="Password" required>
+<small class="password-hint">
+• Minimum 8 characters<br>
+• At least 1 uppercase letter<br>
+• At least 1 number<br>
+• At least 1 special symbol
+</small>
+</div>
+<p class="auth-error" id="authError"></p>
+</div>
+<button type="submit" class="auth-submit">Register</button>
+</form>
+
+    <span class="auth-close" id="closeAuth">✕</span>
+  </div>
+</div>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/auth.css') }}">
+<script src="{{ url_for('static', filename='js/auth.js') }}"></script>
+
+</div>
+
+<div id="profileCard" class="profile-card">
+  <span class="profile-close" onclick="closeProfile()">✕</span>
+  <h3>{{ session.get("name","User") }}</h3>
+  <p>{{ session.get("mode","Student") }}</p>
+
+  <div class="profile-body">
+    <p><strong>Email:</strong> {{ session.get("email") }}</p>
+    <a href="{{ url_for('edit_profile') }}">
+    <button class="profile-btn">Edit Profile</button>
+    <button class="logout-btn" onclick="logoutUser()">Logout</button>
+  </div>
+</div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+
+const loginBtn = document.querySelector(".login-register");
+const authOverlay = document.getElementById("authOverlay");
+const closeBtn = document.getElementById("closeAuth");
+
+// open login modal
+if (loginBtn) {
+  loginBtn.addEventListener("click", function(){
+    authOverlay.classList.remove("auth-hidden");
+  });
+}
+
+// close modal
+if (closeBtn) {
+  closeBtn.addEventListener("click", function(){
+    authOverlay.classList.add("auth-hidden");
+  });
+}
+
+});
+
+window.addEventListener("scroll", function() {
+  let reveals = document.querySelectorAll(".reveal");
+
+  reveals.forEach(el => {
+    let windowHeight = window.innerHeight;
+    let elementTop = el.getBoundingClientRect().top;
+
+    if (elementTop < windowHeight - 100) {
+      el.classList.add("active");
+    }
+  });
+});
+function toggleDropdown() {
+  document.getElementById("serviceDropdown").classList.toggle("show");
+}
+
+/* CLOSE WHEN CLICK OUTSIDE */
+window.addEventListener("click", function(e) {
+  const dropdown = document.getElementById("serviceDropdown");
+  const button = document.querySelector(".dropbtn");
+
+  if (!button.contains(e.target) && !dropdown.contains(e.target)) {
+    dropdown.classList.remove("show");
+  }
+});
+
+setTimeout(() => {
+  const flash = document.querySelector(".flash");
+  if (flash) {
+    flash.style.display = "none";
+  }
+}, 3000);
+
+</script>
+
+
+</body>
+</html>

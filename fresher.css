@@ -1,0 +1,269 @@
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: url("../images/Office.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 25px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.logo img {
+    height: 80px;
+    width: 80px;
+    margin-right: 5px;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+
+.nav-links a.active-page {
+    color: #4e94df;
+    font-weight: 700;
+    border-bottom: 3px solid #4e94df;
+    padding-bottom: 4px;
+}
+
+/* HEADER */
+.header-box {
+    text-align: center;
+    padding: 30px 20px;
+    background: #09045c;
+    color: white;
+    border-radius: 0 0 25px 25px;
+}
+
+.header-box h1 {
+    font-size: 36px;
+}
+.header-box p {
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+/* SECTION TITLE */
+.section-title {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+.section-subtitle {
+    text-align: center;
+    font-size: 16px;
+    color: #ddd;
+    margin-bottom: 20px;
+}
+
+/* ROWS */
+.dashboard-grid {
+    padding: 40px 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.center-row {
+    justify-content: center;
+}
+
+/* CARDS */
+.card {
+    background: #ffffff;          /* Pure white */
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #222;
+    border: 1px solid #e3e3e3;    /* Light border for premium look */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    width: 250px;
+    height: 250px;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.18);
+}
+.card h2 {
+    margin: 12px 0 8px;
+    font-size: 25px;
+    color: #0a0a0a;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card p {
+    font-size: 18px;
+    color: #2b0709;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.center-row {
+    justify-content: center;
+}
+
+.center-card {
+    width: 380px;
+}
+
+/* ICONS */
+.icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Replace image files as per your project */
+.careerpath { background-image: url("../images/Careerpath.jpg"); }
+.skillgap   { background-image: url("../images/Skillgap.jpg"); }
+.resume     { background-image: url("../images/resume.jpg"); }
+.interview  { background-image: url("../images/Interview.jpg"); }
+.fakejob    { background-image: url("../images/Fake.jpg"); }
+.timing     { background-image: url("../images/Timing.jpg"); }
+.readiness  { background-image: url("../images/Readiness.jpg"); }
+/* CHATBOT CONTAINER */
+#chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2000;
+}
+
+/* Floating Chat Icon */
+#chatbot-toggle {
+    width: 60px;
+    height: 60px;
+    background: #09045c;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.2);
+    transition: 0.3s ease;
+}
+
+#chatbot-toggle:hover {
+    transform: scale(1.1);
+}
+
+/* Chat Window */
+#chatbot-box {
+    width: 330px;
+    height: 420px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Header */
+#chatbot-header {
+    background: #09045c;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#chatbot-header button {
+    background: transparent;
+    border: none;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Messages */
+#chatbot-messages {
+    padding: 12px;
+    height: 310px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* User + Bot Message */
+.message {
+    padding: 10px 14px;
+    max-width: 75%;
+    border-radius: 12px;
+    font-size: 15px;
+}
+
+.user-message {
+    background: #e1e1ff;
+    align-self: flex-end;
+}
+
+.bot-message {
+    background: #f1f1f1;
+    align-self: flex-start;
+}
+
+/* Input Area */
+#chatbot-input-area {
+    display: flex;
+    border-top: 1px solid #ddd;
+}
+
+#chatbot-input {
+    flex: 1;
+    border: none;
+    padding: 12px;
+    font-size: 15px;
+}
+
+#chatbot-send {
+    background: #09045c;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    cursor: pointer;
+}
+
+#chatbot-send:hover {
+    background: #130ba0;
+}

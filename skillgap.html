@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Skill Gap Analysis</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/freshers-feature.css') }}">
+
+<style>
+
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f9ff;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #6c63ff;
+}
+
+/* ===== TOP SECTION ===== */
+.feature-container {
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0 auto;
+    max-width: 900px;
+    background: transparent;
+    box-shadow: none;
+    border: none;        
+    outline: none;       
+    border-radius: 0; 
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+}
+
+.feature-list li {
+    margin: 8px 0;
+}
+
+/* ===== MAIN ===== */
+.main-container {
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+/* ===== CARD ===== */
+.glass-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* ===== FORM ===== */
+.select-row {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+select {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* ===== BUTTON ===== */
+.btn-main {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #da95fc, #ef9ff2);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-main:hover {
+    opacity: 0.9;
+}
+
+/* ===== SKILLS LIST ===== */
+.skill-list {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.skill-list li {
+    background: #f3f2ff;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* ===== BACK BUTTON ===== */
+.back-btn {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #6c63ff;
+    border-radius: 25px;
+    color: #6c63ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.back-btn:hover {
+    background: #6c63ff;
+    color: white;
+}
+
+/* ===== MOBILE ===== */
+@media(max-width: 768px){
+    .select-row {
+        flex-direction: column;
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">
+        <img src="{{ url_for('static', filename='images/uniguide-all-in-one.png') }}">
+    </div>
+    <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/fresher">CareerStart</a>
+        <a href="/contact">Contact</a>
+    </div>
+</div>
+
+<!-- TOP INTRO -->
+<div class="feature-container">
+
+    <h1>Skill Gap Analysis</h1>
+
+    <p>Identify what skills you need for your dream job and compare your current level.</p>
+
+    <ul class="feature-list">
+        <li>✔ Skill comparison with industry requirements</li>
+        <li>✔ Weakness detection</li>
+        <li>✔ Suggested courses</li>
+        <li>✔ Beginner → Advanced learning path</li>
+    </ul>
+
+    <a href="/fresher" class="back-btn">← Back</a>
+
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="main-container">
+
+    <h2 style="text-align:center;">🎯 Find Your Required Skills</h2>
+    <p style="text-align:center; color:#666;">
+        Select your branch and job role to discover the skills you need.
+    </p>
+
+    <!-- FORM -->
+    <div class="glass-card">
+
+        <form method="POST" action="{{ url_for('skillgap') }}">
+
+            <div class="select-row">
+
+                <!-- Branch -->
+                <select id="branch" name="branch" required>
+                    <option value="">Select Branch</option>
+                    {% for branch in branches %}
+                        <option value="{{ branch }}">{{ branch }}</option>
+                    {% endfor %}
+                </select>
+
+                <!-- Role -->
+                <select id="role" name="role" required>
+                    <option value="">Select Job Role</option>
+                </select>
+
+                <button type="submit" class="btn-main">
+                    Find Skills
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+    <!-- SKILLS OUTPUT -->
+    {% if skills %}
+
+    <div class="glass-card" style="margin-top:20px;">
+
+        <h3>🚀 Skills Required</h3>
+
+        <ul class="skill-list">
+            {% for skill in skills[0].split(",") %}
+                <li>✔ {{ skill.strip() }}</li>
+            {% endfor %}
+        </ul>
+
+    </div>
+
+    {% endif %}
+
+</div>
+
+<!-- SCRIPT -->
+<script>
+
+document.getElementById("branch").addEventListener("change", function(){
+
+let branch = this.value;
+
+fetch("/get_roles/" + branch)
+
+.then(response => response.json())
+
+.then(data => {
+
+let roleDropdown = document.getElementById("role");
+
+roleDropdown.innerHTML = '<option value="">Select Job Role</option>';
+
+data.roles.forEach(function(role){
+
+let option = document.createElement("option");
+option.value = role;
+option.text = role;
+
+roleDropdown.appendChild(option);
+
+});
+
+});
+
+});
+
+</script>
+
+</body>
+</html>

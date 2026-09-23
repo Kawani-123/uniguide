@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Placement Readiness</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/feature.css') }}">
+
+<style>
+
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9ff;
+    color: #333;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.logo img {
+    height: 60px;        /* controls size */
+    width: auto;         /* keeps aspect ratio */
+    object-fit: contain; /* prevents squeezing */
+    display: block;
+}
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    color: #6c63ff;
+}
+
+/* ===== MAIN ===== */
+.main-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main-container h1 {
+    font-size: 42px;
+}
+
+.main-container p {
+    color: #666;
+    margin-bottom: 30px;
+}
+/* ===== BACK BUTTON FIX ===== */
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #6c63ff;
+    border-radius: 25px;
+    color: #6c63ff !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.back-btn:hover {
+    background: #6c63ff;
+    color: white !important;
+}
+/* ===== CARD ===== */
+.glass-card {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+/* ===== INPUTS ===== */
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* ===== BUTTON ===== */
+.predict-btn {
+    width: 100%;
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(to right, #5de713, hsl(100, 93%, 30%));
+    cursor: pointer;
+}
+
+.predict-btn:hover {
+    opacity: 0.9;
+}
+
+/* ===== RESULT ===== */
+.result-box {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.success {
+    background: #d4f8e8;
+    border: 1px solid #28a745;
+    color: #1e7e34;
+}
+
+.warning {
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    color: #856404;
+}
+
+/* ===== MOBILE ===== */
+@media(max-width: 768px){
+    .glass-card {
+        margin: 20px;
+        padding: 25px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">
+        <img src="{{ url_for('static', filename='images/uniguide-all-in-one.png') }}">
+    </div>
+    <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/college">StudyPro</a>
+        <a href="/contact">Contact</a>
+    </div>
+</div>
+
+<div class="main-container">
+
+<h1>🚀 Placement Readiness</h1>
+<p>Check your preparation score and predict your placement chances.</p>
+<a href="/college" class="back-btn">← Back</a>
+
+<div class="glass-card">
+
+<form method="POST">
+
+<label>🎓 Academic CGPA</label>
+<input type="number" step="0.01" name="cgpa"
+value="{{ request.form.get('cgpa','') }}"
+placeholder="e.g. 8.5" required>
+
+<label>💼 Internships Completed</label>
+<input type="number" name="internships"
+value="{{ request.form.get('internships','') }}"
+placeholder="Number of internships" required>
+
+<label>🛠️ Projects Done</label>
+<input type="number" name="projects"
+value="{{ request.form.get('projects','') }}"
+placeholder="Number of major projects" required>
+
+<button type="submit" class="predict-btn">
+🔍 Predict My Readiness
+</button>
+
+</form>
+
+{% if prediction %}
+<div class="result-box {% if 'Placed' in prediction %}success{% else %}warning{% endif %}">
+
+<h3>Prediction Result:</h3>
+<h2>{{ prediction }}</h2>
+<hr>
+
+{% if 'Placed' in prediction %}
+<p><strong>✅ Status: Placement Ready!</strong></p>
+<p>Your profile is strong. Keep improving coding skills and communication for top-tier companies.</p>
+{% else %}
+<p><strong>⚠️ Status: Needs Improvement</strong></p>
+<p>Try increasing CGPA, adding internships, or building stronger projects.</p>
+{% endif %}
+
+</div>
+{% endif %}
+
+</div>
+
+</div>
+
+</body>
+</html>

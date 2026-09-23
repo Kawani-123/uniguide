@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Career Path Advisor</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/freshers-feature.css') }}">
+
+<style>
+
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f9ff;
+    color: #333;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #6c63ff;
+}
+
+/* ===== MAIN ===== */
+.main-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* ===== TITLE ===== */
+.main-container h1 {
+    font-size: 42px;
+}
+
+.main-container p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* ===== FEATURES LIST ===== */
+.feature-container {
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0 auto;
+    max-width: 900px;
+    background: transparent;
+    box-shadow: none;
+    border: none;        
+    outline: none;       
+    border-radius: 0; 
+}
+.feature-container h1 {
+    font-size: 42px;
+}
+.feature-container p {
+    color: #666;
+}
+.feature-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.feature-list li {
+    margin: 8px 0;
+}
+
+/* ===== FORM BOX ===== */
+.glass-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    max-width: 700px;
+    margin: auto;
+}
+
+/* ===== FORM ===== */
+.select-row {
+    display: flex;
+    gap: 15px;
+}
+
+select {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.btn-main {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background: linear-gradient(to right, #da95fc, #ef9ff2);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn-main:hover {
+    opacity: 0.9;
+}
+
+/* ===== CAREER GRID ===== */
+.career-grid {
+    max-width: 1100px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* ===== CARD ===== */
+.career-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.career-card h3 {
+    margin-top: 0;
+    color: #6c63ff;
+}
+
+/* ===== NO DATA ===== */
+.no-data {
+    text-align: center;
+    margin-top: 30px;
+    color: #777;
+}
+/* ===== BACK BUTTON FIX ===== */
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #6c63ff;
+    border-radius: 25px;
+    color: #6c63ff !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.back-btn:hover {
+    background: #6c63ff;
+    color: white !important;
+}
+/* ===== MOBILE ===== */
+@media(max-width: 768px){
+    .select-row {
+        flex-direction: column;
+    }
+
+    .career-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">
+        <img src="{{ url_for('static', filename='images/uniguide-all-in-one.png') }}">
+    </div>
+    <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/fresher">CareerStart</a>
+        <a href="/contact">Contact</a>
+    </div>
+</div>
+
+<div class="feature-container">
+
+<h1>🎯 Career Path Advisor</h1>
+
+<p>Find the right career path based on your interests, strengths, and future goals.</p>
+
+<ul class="feature-list">
+<li>✔ Personalized career suggestions</li>
+<li>✔ Role-based guidance</li>
+<li>✔ Growth and salary insights</li>
+<li>✔ Skills required for selected path</li>
+</ul>
+
+<a href="/fresher" class="back-btn">← Back</a>
+
+</div>
+
+<!-- FORM -->
+<div class="glass-card">
+
+<form method="POST" action="{{ url_for('careerpath') }}">
+
+<div class="select-row">
+
+<select name="branch" required>
+<option value="">Choose Your Branch</option>
+
+{% for b in branches %}
+<option value="{{b}}" {% if selected_branch == b %}selected{% endif %}>
+{{b}}
+</option>
+{% endfor %}
+
+</select>
+
+<button type="submit" class="btn-main">
+Show Careers
+</button>
+
+</div>
+
+</form>
+
+</div>
+
+<!-- RESULTS -->
+{% if careers %}
+
+<div class="career-grid">
+
+{% set shown = [] %}
+
+{% for c in careers %}
+
+{% if c.career not in shown %}
+{% set _ = shown.append(c.career) %}
+
+<div class="career-card">
+
+<h3>{{ c.career }}</h3>
+<p>{{ c.description }}</p>
+
+</div>
+
+{% endif %}
+
+{% endfor %}
+
+</div>
+
+{% elif request.method == "POST" %}
+
+<div class="no-data">
+No career suggestions available for {{ selected_branch }}
+</div>
+
+{% endif %}
+
+
+</div>
+
+</body>
+</html>

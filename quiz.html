@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Practice Quizzes</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/feature.css') }}">
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+<style>
+
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9ff;
+    color: #333;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.logo img {
+    height: 60px;        /* controls size */
+    width: auto;         /* keeps aspect ratio */
+    object-fit: contain; /* prevents squeezing */
+    display: block;
+}
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    color: #6c63ff;
+}
+
+/* ===== MAIN ===== */
+.main-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main-container h1 {
+    font-size: 42px;
+}
+
+.main-container p {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* ===== SELECT ===== */
+.select-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+select {
+    width: 350px;
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.find-btn {
+    padding: 14px 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    background: linear-gradient(to right, #5de713, hsl(100, 93%, 30%));
+    cursor: pointer;
+}
+
+.find-btn:hover {
+    opacity: 0.9;
+}
+
+/* ===== QUIZ ===== */
+.quiz-box {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* ===== OPTIONS ===== */
+.opt-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: #f3f2ff;
+    cursor: pointer;
+}
+
+.opt-btn:hover {
+    background: #e6e4ff;
+}
+
+.correct {
+    background: #d4f8e8 !important;
+    border-color: #28a745;
+}
+
+.wrong {
+    background: #ffe2e2 !important;
+    border-color: #dc3545;
+}
+/* ===== BACK BUTTON FIX ===== */
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #6c63ff;
+    border-radius: 25px;
+    color: #6c63ff !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.back-btn:hover {
+    background: #6c63ff;
+    color: white !important;
+}
+/* ===== PROGRESS ===== */
+#p-bar {
+    height: 8px;
+    width: 0%;
+    background: #6c63ff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+
+/* ===== MOBILE ===== */
+@media(max-width: 768px){
+    .select-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    select {
+        width: 90%;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">
+        <img src="{{ url_for('static', filename='images/uniguide-all-in-one.png') }}">
+    </div>
+    <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/college">StudyPro</a>
+        <a href="/contact">Contact</a>
+    </div>
+</div>
+
+<div class="main-container">
+
+<h1>🧠 Practice Quizzes</h1>
+<p>Test your concepts with smart quizzes.</p>
+ <a href="/college" class="back-btn">← Back</a>
+
+{% if not selected_branch %}
+
+<!-- SELECT BRANCH -->
+<form method="GET" action="{{ url_for('quiz') }}">
+<div class="select-section">
+
+<select name="branch" required>
+<option value="" disabled selected>-- Choose Branch --</option>
+
+{% for branch in branches %}
+<option value="{{ branch }}">{{ branch }}</option>
+{% endfor %}
+
+</select>
+
+<button type="submit" class="find-btn">Start Quiz</button>
+
+</div>
+</form>
+
+{% else %}
+
+<!-- QUIZ -->
+<div class="quiz-box">
+
+<div id="p-bar"></div>
+
+<h4>Branch: {{ selected_branch }}</h4>
+<h3 id="q-number"></h3>
+<h2 id="q-text"></h2>
+
+<div id="options"></div>
+<div id="feedback" style="margin-top:10px;font-weight:bold;"></div>
+
+<button id="nextBtn" class="find-btn" style="display:none;">Next</button>
+
+<div id="result" style="display:none;"></div>
+
+</div>
+
+{% endif %}
+
+</div>
+
+{% if selected_branch %}
+
+<div id="quiz-questions" data-questions='{{ questions|tojson|safe }}'></div>
+
+<script>
+const questions = JSON.parse(document.getElementById("quiz-questions").dataset.questions);
+
+let current = 0;
+let score = 0;
+
+const qText = document.getElementById("q-text");
+const qNumber = document.getElementById("q-number");
+const optionsDiv = document.getElementById("options");
+const feedback = document.getElementById("feedback");
+const nextBtn = document.getElementById("nextBtn");
+const resultDiv = document.getElementById("result");
+const pbar = document.getElementById("p-bar");
+
+function loadQuestion(){
+    feedback.innerHTML = "";
+    nextBtn.style.display = "none";
+
+    let q = questions[current];
+
+    qNumber.innerText = `Question ${current+1}/${questions.length}`;
+    qText.innerText = q.question;
+
+    optionsDiv.innerHTML = "";
+
+    for(let key in q.options){
+        let btn = document.createElement("button");
+        btn.className = "opt-btn";
+        btn.innerText = key + ". " + q.options[key];
+        btn.onclick = () => checkAnswer(btn, key, q.correct);
+        optionsDiv.appendChild(btn);
+    }
+
+    updateProgress();
+}
+
+function checkAnswer(btn, selected, correct){
+    let buttons = document.querySelectorAll(".opt-btn");
+    buttons.forEach(b => b.disabled = true);
+
+    if(selected === correct){
+        btn.classList.add("correct");
+        feedback.innerText = "✅ Correct!";
+        score++;
+    } else {
+        btn.classList.add("wrong");
+        feedback.innerText = "❌ Wrong!";
+
+        buttons.forEach(b => {
+            if(b.innerText.startsWith(correct)){
+                b.classList.add("correct");
+            }
+        });
+    }
+
+    nextBtn.style.display = "inline-block";
+}
+
+nextBtn.onclick = () => {
+    current++;
+    if(current < questions.length){
+        loadQuestion();
+    } else {
+        showResult();
+    }
+};
+
+function updateProgress(){
+    pbar.style.width = (current / questions.length) * 100 + "%";
+}
+
+function showResult(){
+    qText.style.display = "none";
+    optionsDiv.style.display = "none";
+    nextBtn.style.display = "none";
+    feedback.style.display = "none";
+
+    let percent = Math.round((score / questions.length) * 100);
+
+    resultDiv.style.display = "block";
+    resultDiv.innerHTML = `
+        <h2>Your Score: ${score}/${questions.length} (${percent}%)</h2>
+        <br>
+        <a href="{{ url_for('quiz') }}">
+            <button class="find-btn">Try Another Branch</button>
+        </a>
+    `;
+
+    if(score === questions.length){
+        confetti({ particleCount: 200, spread: 120, origin: { y: 0.6 } });
+    }
+}
+
+loadQuestion();
+</script>
+
+{% endif %}
+
+</body>
+</html>

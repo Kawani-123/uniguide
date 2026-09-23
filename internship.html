@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Internship Suggestions</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/feature.css') }}">
+
+<style>
+
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f9ff;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.logo img {
+    height: 60px;        /* controls size */
+    width: auto;         /* keeps aspect ratio */
+    object-fit: contain; /* prevents squeezing */
+    display: block;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    color: #6c63ff;
+}
+
+/* ===== TITLE ===== */
+.page-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.page-title h1 {
+    font-size: 40px;
+}
+
+.page-title p {
+    color: #666;
+}
+
+/* ===== FORM BOX ===== */
+.glass-box {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* ===== BUTTON ===== */
+.btn-main {
+    background: linear-gradient(to right, #5de713, hsl(100, 93%, 30%));
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-main:hover {
+    opacity: 0.9;
+}
+/* ===== BACK BUTTON FIX ===== */
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #6c63ff;
+    border-radius: 25px;
+    color: #6c63ff !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.back-btn:hover {
+    background: #6c63ff;
+    color: white !important;
+}
+/* ===== GRID CARDS ===== */
+.card-grid {
+    max-width: 1100px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* ===== CARD ===== */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.tag {
+    display: inline-block;
+    background: #f3f2ff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: #6c63ff;
+    margin-bottom: 10px;
+}
+
+/* ===== NO DATA ===== */
+.no-data {
+    text-align: center;
+    margin-top: 30px;
+    color: #777;
+}
+
+/* ===== MOBILE ===== */
+@media(max-width: 768px){
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">
+        <img src="{{ url_for('static', filename='images/uniguide-all-in-one.png') }}">
+    </div>
+    <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/college">StudyPro</a>
+        <a href="/contact">Contact</a>
+    </div>
+</div>
+
+<!-- TITLE -->
+<div class="page-title">
+    <h1>💼 Internship Suggestions</h1>
+    <p>Select your branch to explore opportunities</p>
+    <a href="/college" class="back-btn">← Back</a>
+</div>
+
+<!-- FORM -->
+<div class="glass-box">
+<form method="POST">
+
+<select name="domain" required>
+<option disabled {{ 'selected' if not selected_domain else '' }}>
+🎯 Choose your branch...
+</option>
+
+{% for b in ["Computer Science","Information Technology","Medical","Pharmacy","Agriculture","Banking","Management","Civil Engineering","Hotel Management","Commerce","Law","UPSC","Education","Design","Media","Environmental Science","Robotics"] %}
+<option value="{{ b }}" {{ 'selected' if selected_domain == b else '' }}>
+{{ b }}
+</option>
+{% endfor %}
+
+</select>
+
+<br><br>
+
+<button type="submit" class="btn-main">
+🔎 Get Internships
+</button>
+
+</form>
+</div>
+
+<!-- RESULTS -->
+{% if internships %}
+
+<div class="card-grid">
+
+{% for i in internships %}
+<div class="card">
+
+<span class="tag">{{ i.Mode }}</span>
+
+<h3>{{ i.Internship_Role }}</h3>
+
+<p><strong>Duration:</strong> {{ i.Duration_Months }} months</p>
+<p><strong>Stipend:</strong> {{ i.Stipend_Range }}</p>
+
+<p>{{ i.Key_Responsibilities }}</p>
+
+</div>
+{% endfor %}
+
+</div>
+
+{% elif request.method == "POST" %}
+
+<div class="no-data">
+No internships found for <b>{{ selected_domain }}</b>
+</div>
+
+{% endif %}
+
+</body>
+</html>

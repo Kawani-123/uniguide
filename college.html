@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STUDYPRO</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/college.css') }}">
+    <style>
+        #chatbot-hint {
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            background: #4CAF50;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            animation: bounce 1.5s infinite;
+            cursor: pointer;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/uniguide-all-in-one.png') }}" alt="UniGuide Logo">
+            
+        </div>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            
+            <a href="/" class="active-page">StudyPro</a>
+            <a href="/contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- DASHBOARD HEADER -->
+    <header class="header-box">
+        <h1>STUDYPRO</h1>
+        <p><b>"Empowering your academic journey with clarity and confidence"</b></p>
+        <h2 class="section-title"><u>All your study and career tools in one place</u></h2>
+
+<p class="section-subtitle"><b>Click what you want to access 👇</b></p>
+
+
+
+    </header>
+
+    <!-- MAIN GRID -->
+     <section class="dashboard-grid">
+
+    <!-- Row 1 -->
+    <div class="row">
+        <a class="card" href="/study">
+            <div class="icon book"></div>
+            <h2>Study Material</h2>
+            <p><b>Semester wise notes and guides</b></p>
+        </a>
+<a class="card" href="/quiz">
+            <div class="icon quiz"></div>
+            <h2>Practice Quizzes</h2>
+            <p><b>Test your concepts</b></p>
+        </a>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row">
+        
+
+        <a class="card" href="/project">
+            <div class="icon project"></div>
+            <h2>Projects</h2>
+            <p><b>Mini and major project ideas</b></p>
+        </a>
+
+        <a class="card" href="/internship">
+            <div class="icon internship"></div>
+            <h2>Internship Guidance</h2>
+            <p><b>Certificate internships & tips</b></p>
+        </a>
+    </div>
+
+    <!-- Row 3 (center aligned) -->
+    <div class="row center-row">
+        <a class="card center-card" href="/placement">
+            <div class="icon placement"></div>
+            <h2>Placement Readiness</h2>
+            <p>Check your preparation score</p>
+        </a>
+    </div>
+
+</section>
+<!-- CHATBOT -->
+<div id="chatbot-container">
+    <div id="chatbot-toggle">💬</div>
+    <div id="chatbot-hint"> <b>Ask me anything!</b></div>
+    <div id="chatbot-box">
+        <div id="chatbot-header">
+            <span>StudyPro AI Assistant</span>
+            <button id="chatbot-close">×</button>
+        </div>
+
+        <div id="chatbot-messages"></div>
+
+        <div id="chatbot-input-area">
+            <input type="text" id="chatbot-input" placeholder="Type your question...">
+            <button id="chatbot-send">Send</button>
+        </div>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/Chatbot.js') }}"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/chat.css') }}">
+    
+
+</body>
+</html>
+

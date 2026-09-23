@@ -1,0 +1,127 @@
+/* GENERAL PAGE STYLE */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f0f2f5;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 35px;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo img {
+  height: 80px;   /* size yahin se control hoga */
+  width: 80px;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  margin-left: 30px;
+ 
+}
+
+.nav-links a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+    color: #4b75ff;
+}
+
+.nav-links .active {
+    color: #4b75ff;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* FEATURE PAGE CONTAINER */
+.feature-container {
+    max-width: 850px;
+    margin: 70px auto;
+    background: #ffffff;
+    padding: 50px 45px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+    border-radius: 15px;
+    text-align: left;
+}
+
+.feature-container h1 {
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.feature-container p {
+    font-size: 19px;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 600px) {
+    .feature-container {
+        margin: 40px 20px;
+        padding: 35px 25px;
+    }
+
+    .feature-container h1 {
+        font-size: 28px;
+    }
+
+    .feature-container p {
+        font-size: 17px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+        margin-left: 15px;
+    }
+}
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.search-box select {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.search-box select:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+.search-box button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    background: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-box button:hover {
+    background: #45a049;
+    transform: scale(1.05);
+}

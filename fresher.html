@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Freshers Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/fresher.css') }}">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/uniguide-all-in-one.png') }}" alt="UniGuide Logo">
+            
+        </div>
+
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about">About Us</a>
+            
+            <a class="active-page" href="#">CareerStart</a>
+            <a href="/contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="header-box">
+        <h1>CAREER START</h1>
+        <p><b>"Helping you start your career with clarity and confidence"</b></p>
+        <h2 class="section-title"><u>Choose what you want to explore</u></h2>
+    <p class="section-subtitle">Click any tool below 👇</p>
+    </header>
+
+    
+
+    <!-- Dashboard Cards -->
+    <section class="dashboard-grid">
+
+        <!-- Row 1 -->
+        <div class="row">
+
+            <a class="card" href="/careerpath">
+                <div class="icon careerpath"></div>
+                <h2>Career Path Advisor</h2>
+                <p>Find the right career based on your interests.</p>
+            </a>
+
+            <a class="card" href="/skillgap">
+                <div class="icon skillgap"></div>
+                <h2>Skill Gap Analysis</h2>
+                <p>See what skills you need for your dream job.</p>
+            </a>
+
+           
+
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row">
+
+            <a class="card" href="/interviewprep">
+                <div class="icon interview"></div>
+                <h2>Interview Preparation</h2>
+                <p>Technical + HR question bank.</p>
+            </a>
+
+             <a class="card" href="/resumecheck">
+                <div class="icon resume"></div>
+                <h2>Resume Strength</h2>
+                <p>Check your resume score & suggestions.</p>
+            </a>
+            
+
+            
+
+        </div>
+
+        <!-- Center Card -->
+        <div class="row center-row">
+
+            <a class="card center-card" href="/job_recommendation">
+                <div class="icon readiness"></div>
+                <h2>Job Suggestions</h2>
+                <p>Find job opportunities based on your branch.</p>
+            </a>
+
+        </div>
+
+    </section>
+    <!-- CHATBOT -->
+<div id="chatbot-container">
+    <div id="chatbot-toggle">💬</div>
+    <div id="chatbot-hint"> <b>Ask me anything!</b></div>
+
+    <div id="chatbot-box">
+        <div id="chatbot-header">
+            <span>Careerstart AI Assistant</span>
+            <button id="chatbot-close">×</button>
+        </div>
+
+        <div id="chatbot-messages"></div>
+
+        <div id="chatbot-input-area">
+            <input type="text" id="chatbot-input" placeholder="Type your question...">
+            <button id="chatbot-send">Send</button>
+        </div>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/Chatbot.js') }}"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/chat.css') }}">
+</body>
+</html>

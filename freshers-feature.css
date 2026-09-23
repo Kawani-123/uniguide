@@ -1,0 +1,69 @@
+/* -------- GLOBAL -------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom right, #eef3ff, #ffffff);
+    min-height: 100vh;
+    padding: 120px 0;
+}
+
+/* -------- PAGE BOX -------- */
+.feature-container {
+    width: 70%;
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 45px;
+    
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 
+        0 8px 20px rgba(0,0,0,0.08),
+        0 2px 6px rgba(0,0,0,0.05);
+    
+    border: 1px solid rgba(0,0,0,0.08);
+    animation: fadeIn 0.6s ease;
+}
+
+/* -------- TITLE -------- */
+.feature-container h1 {
+    font-size: 42px;
+    text-align: center;
+    color: #1b1b1b;
+    font-weight: 800;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* -------- DESCRIPTION -------- */
+.feature-container p {
+    font-size: 19px;
+    color: #3d3d3d;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* -------- BULLET POINTS -------- */
+.feature-container ul {
+    margin-top: 10px;
+    padding-left: 22px;
+}
+
+.feature-container ul li {
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #2e2e2e;
+    line-height: 1.6;
+    position: relative;
+}
+
+/* -------- ANIMATION -------- */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
